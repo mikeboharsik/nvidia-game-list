@@ -3,39 +3,6 @@
   "driverVersion": "31.0.15.3118",
   "games": [
     {
-      "displayName": "[NINJA GAIDEN: Master Collection] NINJA GAIDEN 3: Razor's Edge",
-      "name": "ninja_gaiden_3_razors_edge",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "NINJA GAIDEN 3 Razor's Edge.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "[NINJA GAIDEN: Master Collection] NINJA GAIDEN Σ",
-      "name": "ninja_gaiden_master_edition_sigma",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "NINJA GAIDEN SIGMA.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "[NINJA GAIDEN: Master Collection] NINJA GAIDEN Σ2",
-      "name": "ninja_gaiden_master_edition_sigma_2",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "NINJA GAIDEN SIGMA2.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
       "displayName": "300 Ying Xiong",
       "name": "300_ying_xiong",
       "versions": {
@@ -179,68 +146,6 @@
       ]
     },
     {
-      "displayName": "A.V.A. Alliance of Valiant Arms",
-      "name": "ava",
-      "versions": [
-        {
-          "name": "TaiWan",
-          "files": [
-            "AVATWLauncher.exe",
-            "GameData\\Apps\\AVATW\\Binaries\\AVA.exe",
-            "GameData\\Apps\\AVATW\\Binaries\\awesomium_process.exe",
-            "GameData\\Apps\\AVATW\\avaGame\\Content\\GFx\\TPE\\avaGfxIntro.upk"
-          ]
-        },
-        {
-          "name": "Japan",
-          "files": [
-            "Binaries\\AVA.exe",
-            "Engine\\Localization\\JPN\\UnrealEd.JPNx"
-          ]
-        },
-        {
-          "name": "Chinese",
-          "files": [
-            "Binaries\\AVA.exe",
-            "TCLS\\Client.exe",
-            "avaGame\\Localization\\CHN\\avaGame.CHNx"
-          ]
-        },
-        {
-          "name": "Korea",
-          "files": [
-            "Binaries\\AVA.exe",
-            "Binaries\\awesomium_process.exe",
-            "avaGame\\Content\\GFx\\KOR\\avaGfxIntro.upk"
-          ]
-        },
-        {
-          "name": "US",
-          "files": [
-            "Binaries\\AVA.exe",
-            "aeria_launcher.exe",
-            "NWZLauncher.exe",
-            "NWZPatcher.exe"
-          ]
-        },
-        {
-          "name": "garena",
-          "files": [
-            "GameData\\Apps\\AVA\\Binaries\\AVA.exe",
-            "GameData\\Apps\\AVA\\Binaries\\Awesomium.dll"
-          ]
-        },
-        {
-          "name": "new_garena_tw",
-          "files": "32804\\Binaries\\AVA.exe"
-        },
-        {
-          "name": "new_garena_my",
-          "files": "32825\\Binaries\\AVA.exe"
-        }
-      ]
-    },
-    {
       "displayName": "Ace Combat 7: Skies Unknown",
       "name": "ace_combat_7_skies_unknown",
       "versions": {
@@ -359,6 +264,17 @@
       ]
     },
     {
+      "displayName": "Dreamweaver",
+      "name": "adobe_dreamweaver",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "Dreamweaver.exe",
+          "LogSession.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Adobe Illustrator",
       "name": "adobe_illustrator",
       "versions": [
@@ -387,6 +303,17 @@
           "files": "support files\\contents\\windows\\illustrator.exe"
         }
       ]
+    },
+    {
+      "displayName": "InDesign",
+      "name": "adobe_indesign",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "InDesign.exe",
+          "AdobePDFSettings.dll"
+        ]
+      }
     },
     {
       "displayName": "Adobe Lightroom CC",
@@ -713,6 +640,23 @@
       ]
     },
     {
+      "displayName": "Age of Empires: Definitive Edition",
+      "name": "age_of_empires_ii_definitive_edition",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "AoE2DE_s.exe",
+            "steam_api.dll"
+          ]
+        },
+        {
+          "name": "UWP",
+          "files": null
+        }
+      ]
+    },
+    {
       "displayName": "Age of Empires II HD",
       "name": "age_of_empires_ii_hd",
       "versions": {
@@ -767,23 +711,6 @@
           "files": [
             "AgeOfEmpires4.exe",
             "steam_api64.dll"
-          ]
-        },
-        {
-          "name": "UWP",
-          "files": null
-        }
-      ]
-    },
-    {
-      "displayName": "Age of Empires: Definitive Edition",
-      "name": "age_of_empires_ii_definitive_edition",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "AoE2DE_s.exe",
-            "steam_api.dll"
           ]
         },
         {
@@ -857,6 +784,17 @@
         "files": [
           "AGOS.exe",
           "AGOS_Data\\Plugins\\steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Game Name",
+      "name": "aim_lab",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "AimLab_tb.exe",
+          "AimLab_tb_Data\\level0"
         ]
       }
     },
@@ -1346,17 +1284,6 @@
       }
     },
     {
-      "displayName": "Arma 3",
-      "name": "arma_iii",
-      "versions": {
-        "name": "steam-generic",
-        "files": [
-          "arma3.exe",
-          "arma3server.exe"
-        ]
-      }
-    },
-    {
       "displayName": "ARMA II: Operation Arrowhead",
       "name": "arma_2_operation_arrowhead",
       "versions": [
@@ -1376,6 +1303,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Arma 3",
+      "name": "arma_iii",
+      "versions": {
+        "name": "steam-generic",
+        "files": [
+          "arma3.exe",
+          "arma3server.exe"
+        ]
+      }
     },
     {
       "displayName": "Armored Warfare",
@@ -1566,42 +1504,6 @@
       ]
     },
     {
-      "displayName": "Assassin's Creed Unity",
-      "name": "assassins_creed_unity",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "ACU.exe",
-            "sounddata\\PC\\sounds_sfx.pck",
-            "steam_api.dll"
-          ]
-        },
-        {
-          "name": "steam64",
-          "files": [
-            "ACU.exe",
-            "sounddata\\PC\\sounds_sfx.pck",
-            "steam_api64.dll"
-          ]
-        },
-        {
-          "name": "uplay",
-          "files": [
-            "ACU.exe",
-            "uplay_install.manifest"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": [
-            "ACU.exe",
-            "sounddata\\PC\\sounds_sfx.pck"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Assassin's Creed: Origins",
       "name": "assassins_creed_origins",
       "versions": [
@@ -1661,6 +1563,42 @@
           "name": "generic",
           "files": [
             "ACS.exe",
+            "sounddata\\PC\\sounds_sfx.pck"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Assassin's Creed Unity",
+      "name": "assassins_creed_unity",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "ACU.exe",
+            "sounddata\\PC\\sounds_sfx.pck",
+            "steam_api.dll"
+          ]
+        },
+        {
+          "name": "steam64",
+          "files": [
+            "ACU.exe",
+            "sounddata\\PC\\sounds_sfx.pck",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "uplay",
+          "files": [
+            "ACU.exe",
+            "uplay_install.manifest"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": [
+            "ACU.exe",
             "sounddata\\PC\\sounds_sfx.pck"
           ]
         }
@@ -2060,6 +1998,68 @@
       ]
     },
     {
+      "displayName": "A.V.A. Alliance of Valiant Arms",
+      "name": "ava",
+      "versions": [
+        {
+          "name": "TaiWan",
+          "files": [
+            "AVATWLauncher.exe",
+            "GameData\\Apps\\AVATW\\Binaries\\AVA.exe",
+            "GameData\\Apps\\AVATW\\Binaries\\awesomium_process.exe",
+            "GameData\\Apps\\AVATW\\avaGame\\Content\\GFx\\TPE\\avaGfxIntro.upk"
+          ]
+        },
+        {
+          "name": "Japan",
+          "files": [
+            "Binaries\\AVA.exe",
+            "Engine\\Localization\\JPN\\UnrealEd.JPNx"
+          ]
+        },
+        {
+          "name": "Chinese",
+          "files": [
+            "Binaries\\AVA.exe",
+            "TCLS\\Client.exe",
+            "avaGame\\Localization\\CHN\\avaGame.CHNx"
+          ]
+        },
+        {
+          "name": "Korea",
+          "files": [
+            "Binaries\\AVA.exe",
+            "Binaries\\awesomium_process.exe",
+            "avaGame\\Content\\GFx\\KOR\\avaGfxIntro.upk"
+          ]
+        },
+        {
+          "name": "US",
+          "files": [
+            "Binaries\\AVA.exe",
+            "aeria_launcher.exe",
+            "NWZLauncher.exe",
+            "NWZPatcher.exe"
+          ]
+        },
+        {
+          "name": "garena",
+          "files": [
+            "GameData\\Apps\\AVA\\Binaries\\AVA.exe",
+            "GameData\\Apps\\AVA\\Binaries\\Awesomium.dll"
+          ]
+        },
+        {
+          "name": "new_garena_tw",
+          "files": "32804\\Binaries\\AVA.exe"
+        },
+        {
+          "name": "new_garena_my",
+          "files": "32825\\Binaries\\AVA.exe"
+        }
+      ]
+    },
+    {
       "displayName": "Avid Media Composer",
       "name": "avid_media_composer_8.7",
       "versions": [
@@ -2160,6 +2160,17 @@
       ]
     },
     {
+      "displayName": "The Bard's Tale IV: Barrows Deep",
+      "name": "bards_tale_iv_barrows_deep",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "BardsTale4.exe",
+          "BardsTale4\\Content\\Movies\\Opening.mp4"
+        ]
+      }
+    },
+    {
       "displayName": "Barn Finders",
       "name": "barn_finders",
       "versions": {
@@ -2169,26 +2180,6 @@
           "BarnFinders\\Binaries\\Win64\\BarnFinders-Win64-Shipping.exe"
         ]
       }
-    },
-    {
-      "displayName": "Batman Arkham VR",
-      "name": "batman_arkham_vr",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe",
-            "ArkhamVR\\Binaries\\Win64\\ArkhamVR.exe"
-          ]
-        },
-        {
-          "name": "oculus",
-          "files": [
-            "warner-bros-interactive-entertainment-batman-arkham-vr\\ArkhamVR\\Binaries\\Win64\\ArkhamVR.exe",
-            "warner-bros-interactive-entertainment-batman-arkham-vr\\Engine\\Binaries\\ThirdParty\\Ogg\\Win64\\VS2015\\libogg_64.dll"
-          ]
-        }
-      ]
     },
     {
       "displayName": "Batman: Arkham City",
@@ -2271,6 +2262,26 @@
           "files": [
             "SinglePlayer\\Binaries\\Win32\\BatmanOrigins.exe",
             "__installer\\Cleanup.exe"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Batman Arkham VR",
+      "name": "batman_arkham_vr",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe",
+            "ArkhamVR\\Binaries\\Win64\\ArkhamVR.exe"
+          ]
+        },
+        {
+          "name": "oculus",
+          "files": [
+            "warner-bros-interactive-entertainment-batman-arkham-vr\\ArkhamVR\\Binaries\\Win64\\ArkhamVR.exe",
+            "warner-bros-interactive-entertainment-batman-arkham-vr\\Engine\\Binaries\\ThirdParty\\Ogg\\Win64\\VS2015\\libogg_64.dll"
           ]
         }
       ]
@@ -2409,6 +2420,23 @@
       ]
     },
     {
+      "displayName": "Battlefield: Bad Company 2",
+      "name": "battlefield_bad_company_2",
+      "versions": [
+        {
+          "name": "steam-generic",
+          "files": "BFBC2Game.exe"
+        },
+        {
+          "name": "generic",
+          "files": [
+            "BFBC2Game.exe",
+            "Support\\Battlefield Bad Company 2_code.exe"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Battlefield Hardline",
       "name": "battlefield_hardline",
       "versions": [
@@ -2460,23 +2488,6 @@
           "files": [
             "bfv.exe",
             "__overlay\\steam_api.dll"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Battlefield: Bad Company 2",
-      "name": "battlefield_bad_company_2",
-      "versions": [
-        {
-          "name": "steam-generic",
-          "files": "BFBC2Game.exe"
-        },
-        {
-          "name": "generic",
-          "files": [
-            "BFBC2Game.exe",
-            "Support\\Battlefield Bad Company 2_code.exe"
           ]
         }
       ]
@@ -2784,6 +2795,17 @@
       ]
     },
     {
+      "displayName": "Blade and Sorcery",
+      "name": "blade_and_sorcery",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "BladeAndSorcery.exe",
+          "UnityPlayer.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Blade & Soul Complete",
       "name": "blade_and_soul_ue4",
       "versions": [
@@ -2831,17 +2853,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Blade and Sorcery",
-      "name": "blade_and_sorcery",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "BladeAndSorcery.exe",
-          "UnityPlayer.dll"
-        ]
-      }
     },
     {
       "displayName": "Blair Witch",
@@ -3285,28 +3296,6 @@
       ]
     },
     {
-      "displayName": "Call of Duty: Black Ops - Cold War",
-      "name": "call_of_duty_black_ops_cold_war",
-      "versions": [
-        {
-          "name": "pre-rel",
-          "files": [
-            "cod_Release.exe",
-            "BlackOpsColdWar.exe",
-            "Black Ops Cold War Launcher.exe"
-          ]
-        },
-        {
-          "name": "release",
-          "files": [
-            "BlackOpsColdWar.exe",
-            "Black Ops Cold War Launcher.exe",
-            "cod_Release.exe"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Call of Duty: Black Ops 2 Multiplayer",
       "name": "call_of_duty_black_ops_2_multiplayer",
       "versions": [
@@ -3358,17 +3347,6 @@
       ]
     },
     {
-      "displayName": "Call of Duty: Black Ops 4 - Blackout",
-      "name": "call_of_duty_black_ops_4_blackout",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "BlackOps4.exe",
-          "Black Ops 4 Launcher.exe"
-        ]
-      }
-    },
-    {
       "displayName": "Call of Duty: Black Ops III Singleplayer",
       "name": "call_of_duty_black_ops_3",
       "versions": [
@@ -3384,6 +3362,39 @@
           "files": [
             "blackops3.exe",
             "steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Call of Duty: Black Ops 4 - Blackout",
+      "name": "call_of_duty_black_ops_4_blackout",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "BlackOps4.exe",
+          "Black Ops 4 Launcher.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "Call of Duty: Black Ops - Cold War",
+      "name": "call_of_duty_black_ops_cold_war",
+      "versions": [
+        {
+          "name": "pre-rel",
+          "files": [
+            "cod_Release.exe",
+            "BlackOpsColdWar.exe",
+            "Black Ops Cold War Launcher.exe"
+          ]
+        },
+        {
+          "name": "release",
+          "files": [
+            "BlackOpsColdWar.exe",
+            "Black Ops Cold War Launcher.exe",
+            "cod_Release.exe"
           ]
         }
       ]
@@ -3429,45 +3440,13 @@
       ]
     },
     {
-      "displayName": "Call of Duty: Modern Warfare 2",
-      "name": "call_of_duty_modern_warfare_ii_2022",
-      "versions": [
-        {
-          "name": "battlenet",
-          "files": [
-            "_retail_\\cod.exe",
-            "_retail_\\bootstrapper.exe"
-          ]
-        },
-        {
-          "name": "steam",
-          "files": [
-            "cod.exe",
-            "steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Call of Duty: Modern Warfare 2 Campaign Remastered",
-      "name": "call_of_duty_modern_warfare_2_remastered",
+      "displayName": "Call of Duty®: Infinite Warfare",
+      "name": "call_of_duty_infinite_warfare",
       "versions": {
-        "name": "generic",
+        "name": "steam",
         "files": [
-          "MW2 Campaign Remastered Launcher.exe",
-          "MW2CR.exe",
-          "vcomp110.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "Call of Duty: Modern Warfare 2 Multiplayer",
-      "name": "call_of_duty_modern_warfare_2_multiplayer",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "iw4mp.exe",
-          "main\\video\\so_takeover_estate_load.bik"
+          "iw7_ship.exe",
+          "steam_api.dll"
         ]
       }
     },
@@ -3505,6 +3484,29 @@
       ]
     },
     {
+      "displayName": "Call of Duty: Modern Warfare 2 Multiplayer",
+      "name": "call_of_duty_modern_warfare_2_multiplayer",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "iw4mp.exe",
+          "main\\video\\so_takeover_estate_load.bik"
+        ]
+      }
+    },
+    {
+      "displayName": "Call of Duty: Modern Warfare 2 Campaign Remastered",
+      "name": "call_of_duty_modern_warfare_2_remastered",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "MW2 Campaign Remastered Launcher.exe",
+          "MW2CR.exe",
+          "vcomp110.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Call of Duty: Modern Warfare 2019",
       "name": "call_of_duty_modern_warfare_2019",
       "versions": {
@@ -3536,6 +3538,26 @@
           "main\\video\\sp_paris_a_load.bik"
         ]
       }
+    },
+    {
+      "displayName": "Call of Duty: Modern Warfare 2",
+      "name": "call_of_duty_modern_warfare_ii_2022",
+      "versions": [
+        {
+          "name": "battlenet",
+          "files": [
+            "_retail_\\cod.exe",
+            "_retail_\\bootstrapper.exe"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "cod.exe",
+            "steam_api64.dll"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Call of Duty: Modern Warfare Remastered",
@@ -3591,17 +3613,6 @@
       }
     },
     {
-      "displayName": "Call of Duty®: Infinite Warfare",
-      "name": "call_of_duty_infinite_warfare",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "iw7_ship.exe",
-          "steam_api.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Call of Juarez: Gunslinger",
       "name": "call_of_juarez_gunslinger",
       "versions": [
@@ -3633,6 +3644,26 @@
           "steam_api64.dll"
         ]
       }
+    },
+    {
+      "displayName": "The Callisto Protocol",
+      "name": "callisto_protocol",
+      "versions": [
+        {
+          "name": "egs",
+          "files": [
+            "TheCallistoProtocol\\Binaries\\Win64\\TheCallistoProtocol-Win64-Shipping.exe",
+            "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv155\\Win64\\steam_api64.dll"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "TheCallistoProtocol\\Binaries\\Win64\\TheCallistoProtocol-Win64-Shipping.exe",
+            "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv155\\Win64\\steam_api64.dll"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Captain of Industry",
@@ -3892,6 +3923,17 @@
       }
     },
     {
+      "displayName": "The Climb VR",
+      "name": "climb",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "crytek_climb_wip\\bin\\win_x64\\Climb.exe",
+          "crytek_climb_wip\\system.cfg"
+        ]
+      }
+    },
+    {
       "displayName": "Closers",
       "name": "closers",
       "versions": [
@@ -4027,26 +4069,6 @@
       }
     },
     {
-      "displayName": "Conqueror's Blade",
-      "name": "zhan_yi",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "steam_api.dll",
-            "ConquerorsBladeSteamLoader.exe"
-          ]
-        },
-        {
-          "name": "Chinese",
-          "files": [
-            "Starter.exe",
-            "game\\x64\\Ship\\client\\proven_ground_client.exe"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Construction Simulator",
       "name": "construction_simulator",
       "versions": {
@@ -4130,6 +4152,54 @@
       }
     },
     {
+      "displayName": "Counter-Strike 1.6",
+      "name": "counter_strike_1_6",
+      "versions": {
+        "name": "steam-generic",
+        "files": [
+          "hl.exe",
+          "cstrike\\cstrike.wad"
+        ]
+      }
+    },
+    {
+      "displayName": "Counter Strike: Global Offensive",
+      "name": "counter_strike_global_offensive",
+      "versions": [
+        {
+          "name": "Chinese",
+          "files": [
+            "steamapps\\common\\Counter-Strike Global Offensive\\csgo.exe",
+            "csgolauncher.exe"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": "csgo.exe"
+        },
+        {
+          "name": "source2",
+          "files": [
+            "csgos2.exe",
+            "csgo.exe",
+            "steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Counter-Strike Nexon: Zombies",
+      "name": "counter_strike_nexon_zombies",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "Bin\\BGM_zombie_attack.mp3",
+          "Bin\\cstrike-online.exe",
+          "Bin\\sdkencryptedappticket.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Counter Strike Online",
       "name": "counter_strike_online",
       "versions": {
@@ -4163,54 +4233,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Counter Strike: Global Offensive",
-      "name": "counter_strike_global_offensive",
-      "versions": [
-        {
-          "name": "Chinese",
-          "files": [
-            "steamapps\\common\\Counter-Strike Global Offensive\\csgo.exe",
-            "csgolauncher.exe"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": "csgo.exe"
-        },
-        {
-          "name": "source2",
-          "files": [
-            "csgos2.exe",
-            "csgo.exe",
-            "steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Counter-Strike 1.6",
-      "name": "counter_strike_1_6",
-      "versions": {
-        "name": "steam-generic",
-        "files": [
-          "hl.exe",
-          "cstrike\\cstrike.wad"
-        ]
-      }
-    },
-    {
-      "displayName": "Counter-Strike Nexon: Zombies",
-      "name": "counter_strike_nexon_zombies",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "Bin\\BGM_zombie_attack.mp3",
-          "Bin\\cstrike-online.exe",
-          "Bin\\sdkencryptedappticket.dll"
-        ]
-      }
     },
     {
       "displayName": "Counter-Strike: Source",
@@ -4311,18 +4333,6 @@
       }
     },
     {
-      "displayName": "Cross Fire HD RT DLC",
-      "name": "crossfire_hd_rt_dlc",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "Binaries\\Win64\\rail_api64.dll",
-          "Campaign\\CFHD-The10thZone-campaign_dx12_F.exe",
-          "Campaign\\CFHD-The10thZone-campaign_dx11_F.exe"
-        ]
-      }
-    },
-    {
       "displayName": "CrossFire: Rival Factions",
       "name": "cross_fire_rival_factions",
       "versions": [
@@ -4364,6 +4374,18 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Cross Fire HD RT DLC",
+      "name": "crossfire_hd_rt_dlc",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "Binaries\\Win64\\rail_api64.dll",
+          "Campaign\\CFHD-The10thZone-campaign_dx12_F.exe",
+          "Campaign\\CFHD-The10thZone-campaign_dx11_F.exe"
+        ]
+      }
     },
     {
       "displayName": "Crossout",
@@ -4841,17 +4863,6 @@
       }
     },
     {
-      "displayName": "Darksiders Genesis",
-      "name": "darksiders_genesis",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "DarksidersGenesis.exe",
-          "ProjectMayhem\\Binaries\\Win64\\DarksidersGenesis-Win64-Shipping.exe"
-        ]
-      }
-    },
-    {
       "displayName": "Darksiders III",
       "name": "darksiders_3",
       "versions": [
@@ -4868,6 +4879,17 @@
           "files": null
         }
       ]
+    },
+    {
+      "displayName": "Darksiders Genesis",
+      "name": "darksiders_genesis",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "DarksidersGenesis.exe",
+          "ProjectMayhem\\Binaries\\Win64\\DarksidersGenesis-Win64-Shipping.exe"
+        ]
+      }
     },
     {
       "displayName": "Dauntless",
@@ -4935,6 +4957,17 @@
         "files": [
           "DawnOfMan.exe",
           "DawnOfMan_data\\Plugins\\steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Warhammer 40,000: Dawn of War III",
+      "name": "dawn_of_war_3",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "RelicDoW3.exe",
+          "steam_api64.dll"
         ]
       }
     },
@@ -5115,6 +5148,26 @@
       ]
     },
     {
+      "displayName": "Dead Space 3",
+      "name": "dead_space_3",
+      "versions": [
+        {
+          "name": "Steam",
+          "files": [
+            "deadspace3.exe",
+            "__overlay\\steam_api.dll"
+          ]
+        },
+        {
+          "name": "Origin",
+          "files": [
+            "deadspace3.exe",
+            "__overlay\\steam_api.dll"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Dead Space",
       "name": "dead_space_remake",
       "versions": [
@@ -5135,26 +5188,6 @@
             "Dead Space.exe",
             "steam_api64.dll",
             "__Installer\\Cleanup.exe"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Dead Space 3",
-      "name": "dead_space_3",
-      "versions": [
-        {
-          "name": "Steam",
-          "files": [
-            "deadspace3.exe",
-            "__overlay\\steam_api.dll"
-          ]
-        },
-        {
-          "name": "Origin",
-          "files": [
-            "deadspace3.exe",
-            "__overlay\\steam_api.dll"
           ]
         }
       ]
@@ -5214,17 +5247,6 @@
       ]
     },
     {
-      "displayName": "Death's Door",
-      "name": "deaths_door",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "DeathsDoor.exe",
-          "UnityCrashHandler64.exe"
-        ]
-      }
-    },
-    {
       "displayName": "DEATHLOOP",
       "name": "deathloop",
       "versions": [
@@ -5243,6 +5265,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Death's Door",
+      "name": "deaths_door",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "DeathsDoor.exe",
+          "UnityCrashHandler64.exe"
+        ]
+      }
     },
     {
       "displayName": "Deceit",
@@ -5484,6 +5517,31 @@
       }
     },
     {
+      "displayName": "DmC: Devil May Cry",
+      "name": "devil_may_cry",
+      "versions": [
+        {
+          "name": "1.0.0.0",
+          "files": "Binaries\\Win32\\DMC-DevilMayCry.exe"
+        },
+        {
+          "name": "steam-generic",
+          "files": [
+            "Binaries\\Win32\\DMC-DevilMayCry.exe",
+            "DevilGame\\Movies\\BadNews_01.bik",
+            "Binaries\\Win32\\steam_api.dll"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": [
+            "Binaries\\Win32\\DMC-DevilMayCry.exe",
+            "DevilGame\\Movies\\BadNews_01.bik"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Devil May Cry 4 Special Edition",
       "name": "devil_may_cry_4_se",
       "versions": {
@@ -5526,18 +5584,6 @@
       ]
     },
     {
-      "displayName": "Diablo II Resurrected",
-      "name": "diablo_ii_resurrected",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "D2R.exe",
-          "Diablo II Resurrected Launcher.exe",
-          "BlizzardError.exe"
-        ]
-      }
-    },
-    {
       "displayName": "Diablo III",
       "name": "diablo_3",
       "versions": [
@@ -5569,6 +5615,18 @@
           "files": "Diablo III.exe"
         }
       ]
+    },
+    {
+      "displayName": "Diablo II Resurrected",
+      "name": "diablo_ii_resurrected",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "D2R.exe",
+          "Diablo II Resurrected Launcher.exe",
+          "BlizzardError.exe"
+        ]
+      }
     },
     {
       "displayName": "Diablo Immortal",
@@ -5886,31 +5944,6 @@
       ]
     },
     {
-      "displayName": "DmC: Devil May Cry",
-      "name": "devil_may_cry",
-      "versions": [
-        {
-          "name": "1.0.0.0",
-          "files": "Binaries\\Win32\\DMC-DevilMayCry.exe"
-        },
-        {
-          "name": "steam-generic",
-          "files": [
-            "Binaries\\Win32\\DMC-DevilMayCry.exe",
-            "DevilGame\\Movies\\BadNews_01.bik",
-            "Binaries\\Win32\\steam_api.dll"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": [
-            "Binaries\\Win32\\DMC-DevilMayCry.exe",
-            "DevilGame\\Movies\\BadNews_01.bik"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "DnF",
       "name": "dnf",
       "versions": [
@@ -6002,6 +6035,17 @@
       ]
     },
     {
+      "displayName": "DOOM Vulkan",
+      "name": "doom_4_vulkan",
+      "versions": {
+        "name": "steam-generic",
+        "files": [
+          "DOOMx64vk.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Doom 64",
       "name": "doom_64",
       "versions": [
@@ -6039,17 +6083,6 @@
         "name": "steam",
         "files": [
           "DOOMVFRx64.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "DOOM Vulkan",
-      "name": "doom_4_vulkan",
-      "versions": {
-        "name": "steam-generic",
-        "files": [
-          "DOOMx64vk.exe",
           "steam_api64.dll"
         ]
       }
@@ -6233,6 +6266,17 @@
       ]
     },
     {
+      "displayName": "DRAGON QUEST® XI: Echoes of an Elusive Age™",
+      "name": "dragon_quest_xi_echoes_of_an_elusive_age",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "Game\\Binaries\\Win64\\DRAGON QUEST XI.exe",
+          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv132\\Win64\\steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "DRAGON QUEST XI S Echoes of an Elusive Age - Definitive Edition",
       "name": "dragon_quest_xi_echoes_of_an_elusive_age_definitive_edition",
       "versions": [
@@ -6251,17 +6295,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "DRAGON QUEST® XI: Echoes of an Elusive Age™",
-      "name": "dragon_quest_xi_echoes_of_an_elusive_age",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "Game\\Binaries\\Win64\\DRAGON QUEST XI.exe",
-          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv132\\Win64\\steam_api64.dll"
-        ]
-      }
     },
     {
       "displayName": "Dragon's Dogma",
@@ -6341,23 +6374,6 @@
       }
     },
     {
-      "displayName": "Dream Engines: Nomad Cities",
-      "name": "dreamenginesnomadcities",
-      "versions": [
-        {
-          "name": "Steam",
-          "files": [
-            "Dream Engines.exe",
-            "Dream Engines_Data\\Plugins\\x86_64\\EOSSDK-Win64-Shipping.dll"
-          ]
-        },
-        {
-          "name": "EGS",
-          "files": "Dream Engines.exe"
-        }
-      ]
-    },
-    {
       "displayName": "Dream Three Kingdoms",
       "name": "dream_three_kingdoms",
       "versions": {
@@ -6381,15 +6397,21 @@
       }
     },
     {
-      "displayName": "Dreamweaver",
-      "name": "adobe_dreamweaver",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "Dreamweaver.exe",
-          "LogSession.dll"
-        ]
-      }
+      "displayName": "Dream Engines: Nomad Cities",
+      "name": "dreamenginesnomadcities",
+      "versions": [
+        {
+          "name": "Steam",
+          "files": [
+            "Dream Engines.exe",
+            "Dream Engines_Data\\Plugins\\x86_64\\EOSSDK-Win64-Shipping.dll"
+          ]
+        },
+        {
+          "name": "EGS",
+          "files": "Dream Engines.exe"
+        }
+      ]
     },
     {
       "displayName": "Dropzone",
@@ -6649,26 +6671,6 @@
           "steam_api64.dll"
         ]
       }
-    },
-    {
-      "displayName": "eFootball PES 2020",
-      "name": "pro_evolution_soccer_2020",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "PES2020.exe",
-            "steam_api64.dll"
-          ]
-        },
-        {
-          "name": "steam demo",
-          "files": [
-            "PES2020.exe",
-            "steam_api64.dll"
-          ]
-        }
-      ]
     },
     {
       "displayName": "eFootball PES 2021",
@@ -7158,6 +7160,17 @@
       ]
     },
     {
+      "displayName": "Game Name",
+      "name": "expeditions_rome",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "ExpeditionsRome\\Binaries\\Win64\\ExpeditionsRome-Win64-Shipping.exe",
+          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv142\\Win64\\steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Extopia",
       "name": "extopia",
       "versions": {
@@ -7176,17 +7189,6 @@
         "files": [
           "EZ2ON.exe",
           "EZ2ON_Data\\Plugins\\x86_64\\steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "F.I.S.T.: Forged In Shadow Torch",
-      "name": "fist_forged_in_shadow_torch",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "ZingangGame.exe",
-          "ZingangGame\\Binaries\\Win64\\ZingangGame-Win64-Shipping.exe"
         ]
       }
     },
@@ -7523,28 +7525,6 @@
       ]
     },
     {
-      "displayName": "Fallout Shelter",
-      "name": "fallout_shelter",
-      "versions": [
-        {
-          "name": "standalone",
-          "files": [
-            "FalloutShelter_Data\\Plugins\\ZFGameBrowser.exe",
-            "FalloutShelter.exe",
-            "steam_api64.dll"
-          ]
-        },
-        {
-          "name": "steam",
-          "files": [
-            "FalloutShelter_Data\\Plugins\\ZFGameBrowser.exe",
-            "FalloutShelter.exe",
-            "steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Fallout: New Vegas",
       "name": "fallout_new_vegas",
       "versions": [
@@ -7567,6 +7547,28 @@
           "files": [
             "FalloutNV.exe",
             "FalloutNVLauncher.exe"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Fallout Shelter",
+      "name": "fallout_shelter",
+      "versions": [
+        {
+          "name": "standalone",
+          "files": [
+            "FalloutShelter_Data\\Plugins\\ZFGameBrowser.exe",
+            "FalloutShelter.exe",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "FalloutShelter_Data\\Plugins\\ZFGameBrowser.exe",
+            "FalloutShelter.exe",
+            "steam_api64.dll"
           ]
         }
       ]
@@ -7717,30 +7719,6 @@
       ]
     },
     {
-      "displayName": "Far Cry Primal",
-      "name": "far_cry_primal",
-      "versions": [
-        {
-          "name": "steam64",
-          "files": [
-            "bin\\FCPrimal.exe",
-            "bin\\steam_api64.dll"
-          ]
-        },
-        {
-          "name": "uplay",
-          "files": [
-            "bin\\FCPrimal.exe",
-            "bin\\Ubisoft.Core.dll"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": "bin\\FCPrimal.exe"
-        }
-      ]
-    },
-    {
       "displayName": "Far Cry: New Dawn",
       "name": "far_cry_new_dawn",
       "versions": [
@@ -7764,6 +7742,30 @@
             "bin\\FarCryNewDawn.exe",
             "uplay_install.manifest"
           ]
+        }
+      ]
+    },
+    {
+      "displayName": "Far Cry Primal",
+      "name": "far_cry_primal",
+      "versions": [
+        {
+          "name": "steam64",
+          "files": [
+            "bin\\FCPrimal.exe",
+            "bin\\steam_api64.dll"
+          ]
+        },
+        {
+          "name": "uplay",
+          "files": [
+            "bin\\FCPrimal.exe",
+            "bin\\Ubisoft.Core.dll"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": "bin\\FCPrimal.exe"
         }
       ]
     },
@@ -7895,6 +7897,17 @@
       }
     },
     {
+      "displayName": "Fate/EXTELLA LINK",
+      "name": "fate_extella_link",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "fateextellalink.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Fate Seeker",
       "name": "fate_seeker",
       "versions": [
@@ -7914,17 +7927,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Fate/EXTELLA LINK",
-      "name": "fate_extella_link",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "fateextellalink.exe",
-          "steam_api64.dll"
-        ]
-      }
     },
     {
       "displayName": "FATED: The Silent Oath",
@@ -8342,6 +8344,29 @@
       }
     },
     {
+      "displayName": "FINAL FANTASY XIV ONLINE",
+      "name": "final_fantasy_xiv",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "boot\\ffxivboot.exe",
+            "boot\\ffxivupdater.exe",
+            "game\\ffxiv.exe",
+            "install_39210.vdf"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": [
+            "boot\\ffxivboot.exe",
+            "boot\\ffxivupdater.exe",
+            "game\\ffxiv.exe"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Final Fantasy XIV - DX9",
       "name": "final_fantasy_xiv_kr",
       "versions": [
@@ -8368,29 +8393,6 @@
             "FFXIVBoot.exe",
             "FFXIVRepair.exe",
             "game\\ffxiv_dx11.exe",
-            "game\\ffxiv.exe"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "FINAL FANTASY XIV ONLINE",
-      "name": "final_fantasy_xiv",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "boot\\ffxivboot.exe",
-            "boot\\ffxivupdater.exe",
-            "game\\ffxiv.exe",
-            "install_39210.vdf"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": [
-            "boot\\ffxivboot.exe",
-            "boot\\ffxivupdater.exe",
             "game\\ffxiv.exe"
           ]
         }
@@ -8510,6 +8512,17 @@
         "files": [
           "FishingPlanet.exe",
           "UnityPlayer.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "F.I.S.T.: Forged In Shadow Torch",
+      "name": "fist_forged_in_shadow_torch",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "ZingangGame.exe",
+          "ZingangGame\\Binaries\\Win64\\ZingangGame-Win64-Shipping.exe"
         ]
       }
     },
@@ -8847,6 +8860,20 @@
       }
     },
     {
+      "displayName": "The Foundry Modo",
+      "name": "foundry_modo",
+      "versions": [
+        {
+          "name": "fv-13",
+          "files": "modo.exe"
+        },
+        {
+          "name": "fv-12",
+          "files": "modo.exe"
+        }
+      ]
+    },
+    {
       "displayName": "Foundry Nuke",
       "name": "foundry_nuke",
       "versions": [
@@ -9011,50 +9038,6 @@
         "files": [
           "Imerge Pro.exe",
           "diagnostics.bat"
-        ]
-      }
-    },
-    {
-      "displayName": "Game Name",
-      "name": "marvels_guardians_of_the_galaxy",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "bin\\gotg.exe",
-            "bin\\steam_api64.dll",
-            "retail\\EOSSDK-Win64-Shipping.dll"
-          ]
-        },
-        {
-          "name": "epic",
-          "files": [
-            "retail\\gotg.exe",
-            "retail\\EOSSDK-Win64-Shipping.dll",
-            "bin\\steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Game Name",
-      "name": "aim_lab",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "AimLab_tb.exe",
-          "AimLab_tb_Data\\level0"
-        ]
-      }
-    },
-    {
-      "displayName": "Game Name",
-      "name": "expeditions_rome",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "ExpeditionsRome\\Binaries\\Win64\\ExpeditionsRome-Win64-Shipping.exe",
-          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv142\\Win64\\steam_api64.dll"
         ]
       }
     },
@@ -9230,6 +9213,14 @@
       }
     },
     {
+      "displayName": "Tom Clancy's Ghost Recon Phantoms",
+      "name": "ghost_recon_phantoms",
+      "versions": {
+        "name": "generic",
+        "files": "Game\\PDC-Live\\GhostReconPhantoms.exe"
+      }
+    },
+    {
       "displayName": "Ghost Recon® Wildlands",
       "name": "ghost_recon_wildlands",
       "versions": [
@@ -9401,6 +9392,20 @@
       }
     },
     {
+      "displayName": "Sketchup",
+      "name": "google_sketchup",
+      "versions": [
+        {
+          "name": "2020-fv-20",
+          "files": "sketchup.exe"
+        },
+        {
+          "name": "2018-fv-18",
+          "files": "sketchup.exe"
+        }
+      ]
+    },
+    {
       "displayName": "GORN",
       "name": "gorn",
       "versions": {
@@ -9472,6 +9477,37 @@
       ]
     },
     {
+      "displayName": "Grand Theft Auto: Episodes From Liberty City",
+      "name": "grand_theft_auto_iv_eflc",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "EFLC\\EFLC.exe",
+          "EFLC\\binkw32.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Grand Theft Auto: San Andreas",
+      "name": "grand_theft_auto_san_andreas",
+      "versions": [
+        {
+          "name": "generic",
+          "files": [
+            "gta_sa.exe",
+            "models\\gta3.img"
+          ]
+        },
+        {
+          "name": "steam-generic",
+          "files": [
+            "gta-sa.exe",
+            "models\\gta3.img"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Grand Theft Auto San Andreas: Definitive Edition",
       "name": "grand_theft_auto_san_andreas_definitive_edition",
       "versions": [
@@ -9536,37 +9572,6 @@
           "files": [
             "Gameface\\Binaries\\Win64\\ViceCity.exe",
             "Gameface\\Binaries\\Win64\\steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Grand Theft Auto: Episodes From Liberty City",
-      "name": "grand_theft_auto_iv_eflc",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "EFLC\\EFLC.exe",
-          "EFLC\\binkw32.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "Grand Theft Auto: San Andreas",
-      "name": "grand_theft_auto_san_andreas",
-      "versions": [
-        {
-          "name": "generic",
-          "files": [
-            "gta_sa.exe",
-            "models\\gta3.img"
-          ]
-        },
-        {
-          "name": "steam-generic",
-          "files": [
-            "gta-sa.exe",
-            "models\\gta3.img"
           ]
         }
       ]
@@ -9838,6 +9843,28 @@
     },
     {
       "displayName": "Gu Jian Qi Tan Online",
+      "name": "gu_jian_qi_tan_online",
+      "versions": [
+        {
+          "name": "generic",
+          "files": [
+            "bin64\\gujianol.exe",
+            "bin64\\GfeSDK.dll",
+            "GameLauncher.exe"
+          ]
+        },
+        {
+          "name": "Wegame",
+          "files": [
+            "bin64\\gujianol.exe",
+            "bin64\\GfeSDK.dll",
+            "bin64\\rail_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Gu Jian Qi Tan Online",
       "name": "gu_jian_qi_tan_online_dlss",
       "versions": [
         {
@@ -9861,28 +9888,6 @@
           "files": [
             "bin64\\gujianol.exe",
             "bin64\\steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Gu Jian Qi Tan Online",
-      "name": "gu_jian_qi_tan_online",
-      "versions": [
-        {
-          "name": "generic",
-          "files": [
-            "bin64\\gujianol.exe",
-            "bin64\\GfeSDK.dll",
-            "GameLauncher.exe"
-          ]
-        },
-        {
-          "name": "Wegame",
-          "files": [
-            "bin64\\gujianol.exe",
-            "bin64\\GfeSDK.dll",
-            "bin64\\rail_api64.dll"
           ]
         }
       ]
@@ -10100,14 +10105,6 @@
       ]
     },
     {
-      "displayName": "Halo Wars 2",
-      "name": "halo_wars_2",
-      "versions": {
-        "name": "uwp",
-        "files": null
-      }
-    },
-    {
       "displayName": "Halo: The Master Chief Collection",
       "name": "halo_the_master_chief_collection",
       "versions": [
@@ -10123,6 +10120,14 @@
           "files": null
         }
       ]
+    },
+    {
+      "displayName": "Halo Wars 2",
+      "name": "halo_wars_2",
+      "versions": {
+        "name": "uwp",
+        "files": null
+      }
     },
     {
       "displayName": "Hardspace: Shipbreaker",
@@ -10204,17 +10209,6 @@
       }
     },
     {
-      "displayName": "Hellblade Senua's Sacrifice VR",
-      "name": "hellblade_senuas_sacrifice_vr",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "HellbladeGame\\Binaries\\Win64\\HellbladeGameVR-Win64-Shipping.exe",
-          "HellbladeGameVR.exe"
-        ]
-      }
-    },
-    {
       "displayName": "Hellblade: Senua's Sacrifice",
       "name": "hellblade_senuas_sacrifice",
       "versions": [
@@ -10230,6 +10224,17 @@
           "files": null
         }
       ]
+    },
+    {
+      "displayName": "Hellblade Senua's Sacrifice VR",
+      "name": "hellblade_senuas_sacrifice_vr",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "HellbladeGame\\Binaries\\Win64\\HellbladeGameVR-Win64-Shipping.exe",
+          "HellbladeGameVR.exe"
+        ]
+      }
     },
     {
       "displayName": "Helldivers",
@@ -10384,6 +10389,23 @@
       ]
     },
     {
+      "displayName": "Hitman™",
+      "name": "hitman",
+      "versions": [
+        {
+          "name": "generic",
+          "files": [
+            "Retail\\hitman.exe",
+            "Retail\\steam_api64.dll"
+          ]
+        },
+        {
+          "name": "egs",
+          "files": "Retail\\hitman.exe"
+        }
+      ]
+    },
+    {
       "displayName": "HITMAN 2",
       "name": "hitman_2",
       "versions": {
@@ -10391,6 +10413,17 @@
         "files": [
           "Retail\\hitman2.exe",
           "Retail\\RakNet_VS2015_DLL_Release_x64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Hitman: Absolution",
+      "name": "hitman_absolution",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "HMA.exe",
+          "fmodex.dll"
         ]
       }
     },
@@ -10414,34 +10447,6 @@
             "Retail\\steam_api64.dll",
             "Launcher.exe"
           ]
-        }
-      ]
-    },
-    {
-      "displayName": "Hitman: Absolution",
-      "name": "hitman_absolution",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "HMA.exe",
-          "fmodex.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "Hitman™",
-      "name": "hitman",
-      "versions": [
-        {
-          "name": "generic",
-          "files": [
-            "Retail\\hitman.exe",
-            "Retail\\steam_api64.dll"
-          ]
-        },
-        {
-          "name": "egs",
-          "files": "Retail\\hitman.exe"
         }
       ]
     },
@@ -10606,6 +10611,34 @@
       ]
     },
     {
+      "displayName": "Tiger Knight",
+      "name": "hu_bao_qi",
+      "versions": [
+        {
+          "name": "generic",
+          "files": [
+            "Play.exe",
+            "frontend\\bin\\frontend.exe",
+            "Repair.exe"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "Binaries\\Win32\\Kingdom-Win32-Shipping.exe",
+            "frontend\\bin\\steam_api.dll"
+          ]
+        },
+        {
+          "name": "TGP",
+          "files": [
+            "Binaries\\Win32\\TGPKingdom-Win32-Shipping.exe",
+            "frontend\\bin\\TGP_frontend.exe"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Huan Xiang Shen Yu",
       "name": "huan_xiang_shen_yu",
       "versions": {
@@ -10707,17 +10740,6 @@
       }
     },
     {
-      "displayName": "Icarus",
-      "name": "icarus_2021",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "Icarus\\Binaries\\Win64\\Icarus-Win64-Shipping.exe",
-          "Icarus.exe"
-        ]
-      }
-    },
-    {
       "displayName": "ICARUS",
       "name": "icarus",
       "versions": {
@@ -10727,6 +10749,17 @@
           "Bin32\\fxc.exe",
           "Uninstall.exe",
           "Game\\animations.npk"
+        ]
+      }
+    },
+    {
+      "displayName": "Icarus",
+      "name": "icarus_2021",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "Icarus\\Binaries\\Win64\\Icarus-Win64-Shipping.exe",
+          "Icarus.exe"
         ]
       }
     },
@@ -10795,17 +10828,6 @@
           "files": null
         }
       ]
-    },
-    {
-      "displayName": "InDesign",
-      "name": "adobe_indesign",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "InDesign.exe",
-          "AdobePDFSettings.dll"
-        ]
-      }
     },
     {
       "displayName": "Industria",
@@ -11227,28 +11249,6 @@
       }
     },
     {
-      "displayName": "Justice",
-      "name": "open_range_dlss",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "Launcher.exe",
-          "program\\bin\\Release64\\GacRunnerNG.exe"
-        ]
-      }
-    },
-    {
-      "displayName": "Justice",
-      "name": "open_range",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "program\\bin\\Release64\\GacRunnerNG.exe",
-          "Launcher.exe"
-        ]
-      }
-    },
-    {
       "displayName": "JX Online 3",
       "name": "jx_online_3",
       "versions": [
@@ -11433,26 +11433,15 @@
       }
     },
     {
-      "displayName": "King's Bounty II",
-      "name": "kings_bounty_ii",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "KingsBounty2\\Binaries\\Win64\\KingsBounty2.exe",
-            "KingsBounty2\\Content\\Paks\\KingsBounty2-WindowsNoEditor.pak",
-            "KingsBounty2\\Binaries\\Win64\\EOSSDK-Win64-Shipping.dll"
-          ]
-        },
-        {
-          "name": "epic",
-          "files": [
-            "KingsBounty2\\Binaries\\Win64\\KingsBounty2.exe",
-            "KingsBounty2\\Content\\Paks\\KingsBounty2-WindowsNoEditor.pak",
-            "KingsBounty2\\Binaries\\Win64\\EOSSDK-Win64-Shipping.dll"
-          ]
-        }
-      ]
+      "displayName": "Kingdom: Classic",
+      "name": "kingdom",
+      "versions": {
+        "name": "steam-generic",
+        "files": [
+          "Kingdom.exe",
+          "steam_api.dll"
+        ]
+      }
     },
     {
       "displayName": "Kingdom Come: Deliverance",
@@ -11516,17 +11505,6 @@
       }
     },
     {
-      "displayName": "Kingdom of Amalur: Re-Reckoning",
-      "name": "kingdoms_of_amalur_re_reckoning",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "koa.exe",
-          "steam_api.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Kingdom Under Fire 2",
       "name": "kingdom_under_fire_2",
       "versions": {
@@ -11540,15 +11518,37 @@
       }
     },
     {
-      "displayName": "Kingdom: Classic",
-      "name": "kingdom",
+      "displayName": "Kingdom of Amalur: Re-Reckoning",
+      "name": "kingdoms_of_amalur_re_reckoning",
       "versions": {
-        "name": "steam-generic",
+        "name": "generic",
         "files": [
-          "Kingdom.exe",
+          "koa.exe",
           "steam_api.dll"
         ]
       }
+    },
+    {
+      "displayName": "King's Bounty II",
+      "name": "kings_bounty_ii",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "KingsBounty2\\Binaries\\Win64\\KingsBounty2.exe",
+            "KingsBounty2\\Content\\Paks\\KingsBounty2-WindowsNoEditor.pak",
+            "KingsBounty2\\Binaries\\Win64\\EOSSDK-Win64-Shipping.dll"
+          ]
+        },
+        {
+          "name": "epic",
+          "files": [
+            "KingsBounty2\\Binaries\\Win64\\KingsBounty2.exe",
+            "KingsBounty2\\Content\\Paks\\KingsBounty2-WindowsNoEditor.pak",
+            "KingsBounty2\\Binaries\\Win64\\EOSSDK-Win64-Shipping.dll"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Knights of Honor II: Sovereign",
@@ -11753,6 +11753,17 @@
       }
     },
     {
+      "displayName": "The Legend of Bum-bo",
+      "name": "legend_of_bum_bo",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "the legend of bum-bo.exe",
+          "UnityPlayer.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Lego Brawls",
       "name": "lego_brawls",
       "versions": {
@@ -11857,38 +11868,14 @@
     },
     {
       "displayName": "Lineage II",
-      "name": "lineage_2.korean",
+      "name": "lineage_2",
       "versions": {
-        "name": "korean",
+        "name": "ncwest",
         "files": [
-          "FileInfoMap_L2_KOR.dat",
-          "system\\l2.bin",
-          "system\\L2.ini",
-          "LineageII.exe"
+          "system\\L2.bin",
+          "system\\Lineage2US.ini"
         ]
       }
-    },
-    {
-      "displayName": "Lineage II",
-      "name": "lineage_2.ru.eu",
-      "versions": [
-        {
-          "name": "russian",
-          "files": [
-            "system\\L2.exe",
-            "system\\L2.bin",
-            "voice\\Npcdialog1_ru.uax"
-          ]
-        },
-        {
-          "name": "europe",
-          "files": [
-            "system\\L2.exe",
-            "system\\L2.bin",
-            "system\\Frost\\frostUpdater.exe"
-          ]
-        }
-      ]
     },
     {
       "displayName": "Lineage II",
@@ -11931,14 +11918,38 @@
     },
     {
       "displayName": "Lineage II",
-      "name": "lineage_2",
+      "name": "lineage_2.korean",
       "versions": {
-        "name": "ncwest",
+        "name": "korean",
         "files": [
-          "system\\L2.bin",
-          "system\\Lineage2US.ini"
+          "FileInfoMap_L2_KOR.dat",
+          "system\\l2.bin",
+          "system\\L2.ini",
+          "LineageII.exe"
         ]
       }
+    },
+    {
+      "displayName": "Lineage II",
+      "name": "lineage_2.ru.eu",
+      "versions": [
+        {
+          "name": "russian",
+          "files": [
+            "system\\L2.exe",
+            "system\\L2.bin",
+            "voice\\Npcdialog1_ru.uax"
+          ]
+        },
+        {
+          "name": "europe",
+          "files": [
+            "system\\L2.exe",
+            "system\\L2.bin",
+            "system\\Frost\\frostUpdater.exe"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Lineage Remastered",
@@ -12293,28 +12304,6 @@
       ]
     },
     {
-      "displayName": "Mafia II: Definitive Edition",
-      "name": "mafia_ii_remastered",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "pc\\Mafia II Definitive Edition.exe",
-          "pc\\steam_appid.txt"
-        ]
-      }
-    },
-    {
-      "displayName": "Mafia III",
-      "name": "mafia_iii",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "Mafia3.exe",
-          "steam_api.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Mafia: Definitive Edition",
       "name": "mafia_definitive_edition",
       "versions": [
@@ -12341,6 +12330,28 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Mafia II: Definitive Edition",
+      "name": "mafia_ii_remastered",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "pc\\Mafia II Definitive Edition.exe",
+          "pc\\steam_appid.txt"
+        ]
+      }
+    },
+    {
+      "displayName": "Mafia III",
+      "name": "mafia_iii",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "Mafia3.exe",
+          "steam_api.dll"
+        ]
+      }
     },
     {
       "displayName": "Magic the Gathering: Arena",
@@ -12530,6 +12541,19 @@
       ]
     },
     {
+      "displayName": "QQSM 2",
+      "name": "mars_qqsm",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "MaLauncher.exe",
+          "UnrealEngine3\\Binaries\\Win32\\MarsGame.exe",
+          "UnrealEngine3\\Binaries\\Win32\\ErrReport.exe",
+          "UnrealEngine3\\MarsGame\\CookedPCClient\\Engine.u"
+        ]
+      }
+    },
+    {
       "displayName": "Martha is Dead",
       "name": "martha_is_dead",
       "versions": [
@@ -12581,6 +12605,28 @@
       }
     },
     {
+      "displayName": "Game Name",
+      "name": "marvels_guardians_of_the_galaxy",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "bin\\gotg.exe",
+            "bin\\steam_api64.dll",
+            "retail\\EOSSDK-Win64-Shipping.dll"
+          ]
+        },
+        {
+          "name": "epic",
+          "files": [
+            "retail\\gotg.exe",
+            "retail\\EOSSDK-Win64-Shipping.dll",
+            "bin\\steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Marvel's Midnight Suns",
       "name": "marvels_midnight_suns",
       "versions": [
@@ -12599,6 +12645,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Marvel's Spider-Man: Miles Morales",
+      "name": "marvels_spiderman_miles_morales",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "MilesMorales.exe",
+          "asset_archive\\g00s000"
+        ]
+      }
     },
     {
       "displayName": "Marvel's Spider-Man Remastered",
@@ -12621,17 +12678,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Marvel's Spider-Man: Miles Morales",
-      "name": "marvels_spiderman_miles_morales",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "MilesMorales.exe",
-          "asset_archive\\g00s000"
-        ]
-      }
     },
     {
       "displayName": "Mass Effect 3",
@@ -12663,24 +12709,6 @@
       ]
     },
     {
-      "displayName": "Mass Effect Legendary Edition",
-      "name": "mass_effect_legendary_edition",
-      "versions": [
-        {
-          "name": "MassEffect1",
-          "files": "Binaries\\Win64\\MassEffect1.exe"
-        },
-        {
-          "name": "MassEffect2",
-          "files": "Binaries\\Win64\\MassEffect2.exe"
-        },
-        {
-          "name": "MassEffect3",
-          "files": "Binaries\\Win64\\MassEffect3.exe"
-        }
-      ]
-    },
-    {
       "displayName": "Mass Effect: Andromeda",
       "name": "mass_effect_andromeda",
       "versions": [
@@ -12697,6 +12725,24 @@
             "MassEffectAndromeda.exe",
             "__overlay\\steam_api.dll"
           ]
+        }
+      ]
+    },
+    {
+      "displayName": "Mass Effect Legendary Edition",
+      "name": "mass_effect_legendary_edition",
+      "versions": [
+        {
+          "name": "MassEffect1",
+          "files": "Binaries\\Win64\\MassEffect1.exe"
+        },
+        {
+          "name": "MassEffect2",
+          "files": "Binaries\\Win64\\MassEffect2.exe"
+        },
+        {
+          "name": "MassEffect3",
+          "files": "Binaries\\Win64\\MassEffect3.exe"
         }
       ]
     },
@@ -13187,6 +13233,19 @@
       ]
     },
     {
+      "displayName": "Minecraft: China",
+      "name": "minecraft_china",
+      "versions": {
+        "name": "Netease",
+        "files": [
+          "Minecraft.Windows.exe",
+          "MinecraftEducationUpdater.exe",
+          "nvngx_dlss.dll",
+          "MediaDecoders.UWP.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Minecraft Dungeons",
       "name": "minecraft_dungeons",
       "versions": {
@@ -13230,19 +13289,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Minecraft: China",
-      "name": "minecraft_china",
-      "versions": {
-        "name": "Netease",
-        "files": [
-          "Minecraft.Windows.exe",
-          "MinecraftEducationUpdater.exe",
-          "nvngx_dlss.dll",
-          "MediaDecoders.UWP.dll"
-        ]
-      }
     },
     {
       "displayName": "Minecraft: Windows 10 Edition",
@@ -13342,7 +13388,7 @@
     },
     {
       "displayName": "Monster Hunter World",
-      "name": "monster_hunter_world_dlss",
+      "name": "monster_hunter_world",
       "versions": [
         {
           "name": "steam",
@@ -13362,7 +13408,7 @@
     },
     {
       "displayName": "Monster Hunter World",
-      "name": "monster_hunter_world",
+      "name": "monster_hunter_world_dlss",
       "versions": [
         {
           "name": "steam",
@@ -13403,17 +13449,6 @@
       }
     },
     {
-      "displayName": "Mortal Kombat 11",
-      "name": "mortal_kombat_xi",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "Binaries\\Retail\\MK11.exe",
-          "Localization\\Coalesced.ENG"
-        ]
-      }
-    },
-    {
       "displayName": "Mortal Kombat Komplete Edition",
       "name": "mortal_kombat",
       "versions": {
@@ -13432,6 +13467,17 @@
         "files": [
           "Binaries\\Retail\\MKXLauncher.exe",
           "Binaries\\Retail\\MK10.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "Mortal Kombat 11",
+      "name": "mortal_kombat_xi",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "Binaries\\Retail\\MK11.exe",
+          "Localization\\Coalesced.ENG"
         ]
       }
     },
@@ -13845,6 +13891,18 @@
       ]
     },
     {
+      "displayName": "NBA2K Online 2",
+      "name": "nba_2k_online_2",
+      "versions": {
+        "name": "Wegame",
+        "files": [
+          "NBA2KOL2.exe",
+          "NBA2KOL2Base.dll",
+          "VFS2.0.dll"
+        ]
+      }
+    },
+    {
       "displayName": "NBA 2K13",
       "name": "nba_2k13",
       "versions": [
@@ -14002,18 +14060,6 @@
       }
     },
     {
-      "displayName": "NBA2K Online 2",
-      "name": "nba_2k_online_2",
-      "versions": {
-        "name": "Wegame",
-        "files": [
-          "NBA2KOL2.exe",
-          "NBA2KOL2Base.dll",
-          "VFS2.0.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Necromunda: Hired Gun",
       "name": "necromunda_the_hired_gun",
       "versions": [
@@ -14056,6 +14102,26 @@
       ]
     },
     {
+      "displayName": "Need for Speed(TM) Edge",
+      "name": "need_for_speed_edge",
+      "versions": [
+        {
+          "name": "Korea",
+          "files": [
+            "NFSEdge.exe",
+            "NFSEdgeLauncher.exe"
+          ]
+        },
+        {
+          "name": "Chinese",
+          "files": [
+            "NFSOL.exe",
+            "TCLS\\Client.exe"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Need For Speed Heat",
       "name": "need_for_speed_heat",
       "versions": [
@@ -14069,23 +14135,6 @@
         {
           "name": "Origin",
           "files": "NeedForSpeedHeat.exe"
-        }
-      ]
-    },
-    {
-      "displayName": "Need For Speed Unbound",
-      "name": "need_for_speed_unbound",
-      "versions": [
-        {
-          "name": "Steam",
-          "files": [
-            "NeedForSpeedUnbound.exe",
-            "__overlay\\steam_api.dll"
-          ]
-        },
-        {
-          "name": "EA",
-          "files": "NeedForSpeedUnbound.exe"
         }
       ]
     },
@@ -14106,6 +14155,26 @@
           "files": [
             "NFS11.exe",
             "ConfigTool.exe"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Need for Speed™ Hot Pursuit Remastered",
+      "name": "need_for_speed_hot_pursuit_re_master",
+      "versions": [
+        {
+          "name": "Steam",
+          "files": [
+            "NFS11Remastered.exe",
+            "__overlay\\steam_api.dll"
+          ]
+        },
+        {
+          "name": "Origin",
+          "files": [
+            "NFS11Remastered.exe",
+            "__overlay\\steam_api.dll"
           ]
         }
       ]
@@ -14199,42 +14268,19 @@
       ]
     },
     {
-      "displayName": "Need for Speed(TM) Edge",
-      "name": "need_for_speed_edge",
-      "versions": [
-        {
-          "name": "Korea",
-          "files": [
-            "NFSEdge.exe",
-            "NFSEdgeLauncher.exe"
-          ]
-        },
-        {
-          "name": "Chinese",
-          "files": [
-            "NFSOL.exe",
-            "TCLS\\Client.exe"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Need for Speed™ Hot Pursuit Remastered",
-      "name": "need_for_speed_hot_pursuit_re_master",
+      "displayName": "Need For Speed Unbound",
+      "name": "need_for_speed_unbound",
       "versions": [
         {
           "name": "Steam",
           "files": [
-            "NFS11Remastered.exe",
+            "NeedForSpeedUnbound.exe",
             "__overlay\\steam_api.dll"
           ]
         },
         {
-          "name": "Origin",
-          "files": [
-            "NFS11Remastered.exe",
-            "__overlay\\steam_api.dll"
-          ]
+          "name": "EA",
+          "files": "NeedForSpeedUnbound.exe"
         }
       ]
     },
@@ -14266,19 +14312,6 @@
       ]
     },
     {
-      "displayName": "New Qian Nv You Hun",
-      "name": "qian_nv_you_hun",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "artist\\res\\design.wdf",
-          "Launcher.exe",
-          "program\\bin\\Release64\\GacRunner.exe",
-          "artist\\res\\data2.wbf"
-        ]
-      }
-    },
-    {
       "displayName": "New Retro Arcade: Neon",
       "name": "new_retro_arcade_neon",
       "versions": {
@@ -14308,6 +14341,19 @@
         "files": [
           "Bin64\\NewWorld.exe",
           "NewWorldLauncher.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "XIYOU ONLINE 2",
+      "name": "new_xiyou_online_2",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "xy2_launch.exe",
+          "xy2.exe",
+          "xy2_tab.exe",
+          "xy2repair.exe"
         ]
       }
     },
@@ -14366,17 +14412,6 @@
       }
     },
     {
-      "displayName": "NieR Replicant ver.1.22474487139...",
-      "name": "nier_replicant",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "NieR Replicant ver.1.22474487139.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
       "displayName": "NieR: Automata",
       "name": "nier_automata",
       "versions": [
@@ -14400,6 +14435,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "NieR Replicant ver.1.22474487139...",
+      "name": "nier_replicant",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "NieR Replicant ver.1.22474487139.exe",
+          "steam_api64.dll"
+        ]
+      }
     },
     {
       "displayName": "Nigate Tale",
@@ -14430,6 +14476,39 @@
         "files": [
           "Launcher.exe",
           "Binaries\\Win64\\NightmareBreaker.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "[NINJA GAIDEN: Master Collection] NINJA GAIDEN 3: Razor's Edge",
+      "name": "ninja_gaiden_3_razors_edge",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "NINJA GAIDEN 3 Razor's Edge.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "[NINJA GAIDEN: Master Collection] NINJA GAIDEN Σ",
+      "name": "ninja_gaiden_master_edition_sigma",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "NINJA GAIDEN SIGMA.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "[NINJA GAIDEN: Master Collection] NINJA GAIDEN Σ2",
+      "name": "ninja_gaiden_master_edition_sigma_2",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "NINJA GAIDEN SIGMA2.exe",
+          "steam_api64.dll"
         ]
       }
     },
@@ -14469,14 +14548,6 @@
     },
     {
       "displayName": "No Man's Sky",
-      "name": "no_mans_sky_uwp",
-      "versions": {
-        "name": "UWP",
-        "files": null
-      }
-    },
-    {
-      "displayName": "No Man's Sky",
       "name": "no_mans_sky",
       "versions": [
         {
@@ -14494,6 +14565,14 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "No Man's Sky",
+      "name": "no_mans_sky_uwp",
+      "versions": {
+        "name": "UWP",
+        "files": null
+      }
     },
     {
       "displayName": "Nobody - The Turnaround",
@@ -14797,6 +14876,28 @@
       }
     },
     {
+      "displayName": "Justice",
+      "name": "open_range",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "program\\bin\\Release64\\GacRunnerNG.exe",
+          "Launcher.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "Justice",
+      "name": "open_range_dlss",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "Launcher.exe",
+          "program\\bin\\Release64\\GacRunnerNG.exe"
+        ]
+      }
+    },
+    {
       "displayName": "Operencia: The Stolen Sun",
       "name": "operencia_the_stolen_sun",
       "versions": [
@@ -14817,17 +14918,6 @@
       ]
     },
     {
-      "displayName": "Orcs Must Die 3",
-      "name": "orcs_must_die_3",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "OMD\\Binaries\\Win64\\OMD-Win64-Shipping.exe",
-          "Orcs Must Die! 3.exe"
-        ]
-      }
-    },
-    {
       "displayName": "Orcs Must Die! 2",
       "name": "orcs_must_die_2",
       "versions": [
@@ -14846,6 +14936,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Orcs Must Die 3",
+      "name": "orcs_must_die_3",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "OMD\\Binaries\\Win64\\OMD-Win64-Shipping.exe",
+          "Orcs Must Die! 3.exe"
+        ]
+      }
     },
     {
       "displayName": "Ori and the Will of the Wisps",
@@ -15087,6 +15188,26 @@
           "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv151\\Win64\\steam_api64.dll"
         ]
       }
+    },
+    {
+      "displayName": "The Park",
+      "name": "park_the",
+      "versions": [
+        {
+          "name": "steam-generic",
+          "files": [
+            "AtlanticIslandPark\\Binaries\\Win64\\ThePark.exe",
+            "AtlanticIslandPark.exe"
+          ]
+        },
+        {
+          "name": "gog",
+          "files": [
+            "AtlanticIslandPark\\Binaries\\Win64\\ThePark.exe",
+            "goggame-1409316604.ico"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Path of Exile (DirectX 11)",
@@ -15628,27 +15749,6 @@
       }
     },
     {
-      "displayName": "Plants vs. Zombies GOTY Edition",
-      "name": "plants_vs_zombies_goty_edition",
-      "versions": [
-        {
-          "name": "Steam",
-          "files": [
-            "PlantsVsZombies.exe",
-            "steam_api.dll"
-          ]
-        },
-        {
-          "name": "Origin",
-          "files": [
-            "PlantsVsZombies.exe",
-            "Plants vs. Zombies EN\\bass.dll",
-            "Plants vs. Zombies EN\\PlantsVsZombies.exe"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Plants vs. Zombies: Battle for Neighborville",
       "name": "plants_vs_zombies_battle_for_neighborville",
       "versions": {
@@ -15688,6 +15788,27 @@
             "GW2.Main_Win64_Retail.exe",
             "Engine.BuildInfo_Win64_retail.dll",
             "__overlay\\steam_api.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Plants vs. Zombies GOTY Edition",
+      "name": "plants_vs_zombies_goty_edition",
+      "versions": [
+        {
+          "name": "Steam",
+          "files": [
+            "PlantsVsZombies.exe",
+            "steam_api.dll"
+          ]
+        },
+        {
+          "name": "Origin",
+          "files": [
+            "PlantsVsZombies.exe",
+            "Plants vs. Zombies EN\\bass.dll",
+            "Plants vs. Zombies EN\\PlantsVsZombies.exe"
           ]
         }
       ]
@@ -15950,6 +16071,26 @@
       }
     },
     {
+      "displayName": "eFootball PES 2020",
+      "name": "pro_evolution_soccer_2020",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "PES2020.exe",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "steam demo",
+          "files": [
+            "PES2020.exe",
+            "steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Project Cars",
       "name": "project_cars",
       "versions": [
@@ -15987,17 +16128,6 @@
       ]
     },
     {
-      "displayName": "Project Winter",
-      "name": "project_winter",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "ProjectWinter.exe",
-          "ProjectWinter_Data\\level0"
-        ]
-      }
-    },
-    {
       "displayName": "PROJECT: PLAYTIME",
       "name": "project_playtime",
       "versions": {
@@ -16005,6 +16135,17 @@
         "files": [
           "Playtime_Multiplayer\\Binaries\\Win64\\Playtime_Multiplayer-Win64-Shipping.exe",
           "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv151\\Win64\\steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Project Winter",
+      "name": "project_winter",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "ProjectWinter.exe",
+          "ProjectWinter_Data\\level0"
         ]
       }
     },
@@ -16084,6 +16225,19 @@
       }
     },
     {
+      "displayName": "New Qian Nv You Hun",
+      "name": "qian_nv_you_hun",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "artist\\res\\design.wdf",
+          "Launcher.exe",
+          "program\\bin\\Release64\\GacRunner.exe",
+          "artist\\res\\data2.wbf"
+        ]
+      }
+    },
+    {
       "displayName": "Qian Nv You Hun",
       "name": "qian_nv_you_hun_classic",
       "versions": {
@@ -16104,6 +16258,18 @@
         "files": [
           "TCLS\\Client.exe",
           "Binaries\\Win32\\TPS.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "Xuan Yuan Jian Wai Zhuan: Qiong Zhi Fei",
+      "name": "qiong_zhi_fei",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "SWD6E\\Launcher\\Launcher.exe",
+          "SWD6E\\SWD6E.exe",
+          "SWD6E\\Revoke.exe"
         ]
       }
     },
@@ -16169,30 +16335,6 @@
       }
     },
     {
-      "displayName": "QQSM 2",
-      "name": "mars_qqsm",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "MaLauncher.exe",
-          "UnrealEngine3\\Binaries\\Win32\\MarsGame.exe",
-          "UnrealEngine3\\Binaries\\Win32\\ErrReport.exe",
-          "UnrealEngine3\\MarsGame\\CookedPCClient\\Engine.u"
-        ]
-      }
-    },
-    {
-      "displayName": "Quake Champions",
-      "name": "quake_champions",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "client\\bin\\pc\\QuakeChampions.exe",
-          "client\\bin\\pc\\steam_api64.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Quake II",
       "name": "quake_2",
       "versions": {
@@ -16212,6 +16354,17 @@
         "files": [
           "q2rtx.exe",
           "setup\\Quake2RTX-Steam-Setup.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "Quake Champions",
+      "name": "quake_champions",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "client\\bin\\pc\\QuakeChampions.exe",
+          "client\\bin\\pc\\steam_api64.dll"
         ]
       }
     },
@@ -16442,6 +16595,17 @@
       }
     },
     {
+      "displayName": "Redout: Space Assault",
+      "name": "redout_space_assault",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "SpaceAssault\\Binaries\\Win64\\SpaceAssault-Win64-Shipping.exe",
+          "SpaceAssault.exe"
+        ]
+      }
+    },
+    {
       "displayName": "Redout VR",
       "name": "redout_vr",
       "versions": {
@@ -16450,17 +16614,6 @@
           "redout.exe",
           "redout\\Binaries\\Win64\\redout-Win64-Shipping.exe",
           "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv139\\Win64\\steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "Redout: Space Assault",
-      "name": "redout_space_assault",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "SpaceAssault\\Binaries\\Win64\\SpaceAssault-Win64-Shipping.exe",
-          "SpaceAssault.exe"
         ]
       }
     },
@@ -16597,6 +16750,26 @@
       }
     },
     {
+      "displayName": "Resident Evil: Revelations",
+      "name": "resident_evil_revelations",
+      "versions": [
+        {
+          "name": "steam-generic",
+          "files": [
+            "rerev.exe",
+            "steam_api.dll"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": [
+            "rerev.exe",
+            "nativePC\\model\\textures\\s10c_010_MM.tex"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Resident Evil Village",
       "name": "resident_evil_village",
       "versions": [
@@ -16614,26 +16787,6 @@
             "re8.exe",
             "steam_api64.dll",
             "1196600"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Resident Evil: Revelations",
-      "name": "resident_evil_revelations",
-      "versions": [
-        {
-          "name": "steam-generic",
-          "files": [
-            "rerev.exe",
-            "steam_api.dll"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": [
-            "rerev.exe",
-            "nativePC\\model\\textures\\s10c_010_MM.tex"
           ]
         }
       ]
@@ -16742,6 +16895,24 @@
       ]
     },
     {
+      "displayName": "The Riftbreaker",
+      "name": "riftbreaker",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "bin\\riftbreaker_win_release.exe",
+            "bin\\steam_api64.dll",
+            "bin\\Launcher.exe"
+          ]
+        },
+        {
+          "name": "UWP",
+          "files": null
+        }
+      ]
+    },
+    {
       "displayName": "RimWorld",
       "name": "rimworld",
       "versions": {
@@ -16814,17 +16985,6 @@
       }
     },
     {
-      "displayName": "Risk of Rain 2",
-      "name": "risk_of_rain_2",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "Risk of Rain 2.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Risk: Global Domination",
       "name": "risk_global_domination",
       "versions": {
@@ -16832,6 +16992,17 @@
         "files": [
           "RISK.exe",
           "RISK_Data\\Plugins\\steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Risk of Rain 2",
+      "name": "risk_of_rain_2",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "Risk of Rain 2.exe",
+          "steam_api64.dll"
         ]
       }
     },
@@ -16989,6 +17160,17 @@
         "files": [
           "SAN14_Launcher.exe",
           "steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Total War: Rome II",
+      "name": "rome_2_total_war",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "Rome2.exe",
+          "Rome2.dll"
         ]
       }
     },
@@ -17155,23 +17337,6 @@
       }
     },
     {
-      "displayName": "Saints Row IV",
-      "name": "saints_row_episode_4",
-      "versions": [
-        {
-          "name": "steam-generic",
-          "files": [
-            "SaintsRowIV.exe",
-            "steam_api.dll"
-          ]
-        },
-        {
-          "name": "UWP",
-          "files": null
-        }
-      ]
-    },
-    {
       "displayName": "Saints Row: The Third (DX 11)",
       "name": "saints_row_3",
       "versions": [
@@ -17188,6 +17353,23 @@
             "saintsrowthethird_dx11.exe",
             "goggame-1430740694.ico"
           ]
+        }
+      ]
+    },
+    {
+      "displayName": "Saints Row IV",
+      "name": "saints_row_episode_4",
+      "versions": [
+        {
+          "name": "steam-generic",
+          "files": [
+            "SaintsRowIV.exe",
+            "steam_api.dll"
+          ]
+        },
+        {
+          "name": "UWP",
+          "files": null
         }
       ]
     },
@@ -17685,6 +17867,31 @@
       ]
     },
     {
+      "displayName": "Total War: Shogun 2",
+      "name": "shogun_2_total_war",
+      "versions": [
+        {
+          "name": "1.1.0.0",
+          "files": "Shogun2.exe"
+        },
+        {
+          "name": "steam 1.1.0.0 - 1",
+          "files": "Shogun2.exe"
+        },
+        {
+          "name": "steam 1.1.0.0 - 2",
+          "files": "Shogun2.exe"
+        },
+        {
+          "name": "generic",
+          "files": [
+            "Shogun2.exe",
+            "Shogun2.dll"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Shop Titans",
       "name": "shop_titans",
       "versions": {
@@ -17692,6 +17899,17 @@
         "files": [
           "ShopTitan.exe",
           "ShopTitan_Data\\Plugins\\x86\\steam_api.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Sid Meier's Civilization: Beyond Earth",
+      "name": "sid_meiers_civilization_beyond_earth",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "CivilizationBE_DX11.exe",
+          "steam_api.dll"
         ]
       }
     },
@@ -17714,17 +17932,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Sid Meier's Civilization: Beyond Earth",
-      "name": "sid_meiers_civilization_beyond_earth",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "CivilizationBE_DX11.exe",
-          "steam_api.dll"
-        ]
-      }
     },
     {
       "displayName": "SideFX Houdini",
@@ -17774,6 +17981,26 @@
       }
     },
     {
+      "displayName": "The Sims 4",
+      "name": "sims_4",
+      "versions": [
+        {
+          "name": "Steam",
+          "files": [
+            "Game\\Bin\\TS4_x64.exe",
+            "__overlay\\steam_api.dll"
+          ]
+        },
+        {
+          "name": "Origin",
+          "files": [
+            "Game\\Bin\\TS4_x64.exe",
+            "__overlay\\steam_api.dll"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Sins of a Solar Empire: Rebellion",
       "name": "sins_of_a_solar_empire_rebellion",
       "versions": [
@@ -17802,20 +18029,6 @@
       }
     },
     {
-      "displayName": "Sketchup",
-      "name": "google_sketchup",
-      "versions": [
-        {
-          "name": "2020-fv-20",
-          "files": "sketchup.exe"
-        },
-        {
-          "name": "2018-fv-18",
-          "files": "sketchup.exe"
-        }
-      ]
-    },
-    {
       "displayName": "Skul: The Hero Slayer",
       "name": "skul_the_hero_slayer",
       "versions": {
@@ -17839,6 +18052,57 @@
           "files": "Bin32\\Skyforge.exe"
         }
       ]
+    },
+    {
+      "displayName": "The Elder Scrolls V: Skyrim",
+      "name": "skyrim",
+      "versions": {
+        "name": "generic-steam",
+        "files": [
+          "TESV.exe",
+          "SkyrimLauncher.exe",
+          "Data\\Skyrim.esm"
+        ]
+      }
+    },
+    {
+      "displayName": "The Elder Scrolls V: Skyrim Special Edition",
+      "name": "skyrim_special_edition",
+      "versions": [
+        {
+          "name": "generic-steam",
+          "files": [
+            "SkyrimSE.exe",
+            "SkyrimSELauncher.exe"
+          ]
+        },
+        {
+          "name": "epic",
+          "files": [
+            "SkyrimSE.exe",
+            "SkyrimSELauncher.exe"
+          ]
+        },
+        {
+          "name": "GOG",
+          "files": [
+            "SkyrimSE.exe",
+            "SkyrimSELauncher.exe",
+            "gog.ico"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "The Elder Scrolls V: Skyrim VR",
+      "name": "skyrim_vr",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "SkyrimVR.exe",
+          "steam_api64.dll"
+        ]
+      }
     },
     {
       "displayName": "Slay the Spire",
@@ -17949,17 +18213,6 @@
       ]
     },
     {
-      "displayName": "Sniper Ghost Warrior Contracts 2",
-      "name": "sniper_ghost_warrior_contracts_2",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "win_x64\\SGWContracts2.exe",
-          "win_x64\\steam_api64.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Sniper: Ghost Warrior 2",
       "name": "sniper_ghost_warrior_2",
       "versions": {
@@ -17977,6 +18230,17 @@
         "name": "Steam",
         "files": [
           "win_x64\\SGWContracts.exe",
+          "win_x64\\steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Sniper Ghost Warrior Contracts 2",
+      "name": "sniper_ghost_warrior_contracts_2",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "win_x64\\SGWContracts2.exe",
           "win_x64\\steam_api64.dll"
         ]
       }
@@ -18269,6 +18533,37 @@
           "steam_api64.dll"
         ]
       }
+    },
+    {
+      "displayName": "Tom Clancy's Splinter Cell Blacklist",
+      "name": "splinter_cell_blacklist",
+      "versions": [
+        {
+          "name": "steam-generic",
+          "files": [
+            "Blacklist_Launcher.exe",
+            "src\\SYSTEM\\Blacklist_game.exe",
+            "src\\SYSTEM\\Blacklist_DX11_game.exe",
+            "blacklistinstallscript.vdf"
+          ]
+        },
+        {
+          "name": "origin",
+          "files": [
+            "Blacklist_Launcher.exe",
+            "src\\SYSTEM\\Blacklist_game.exe",
+            "src\\SYSTEM\\Blacklist_DX11_game.exe"
+          ]
+        },
+        {
+          "name": "uplay",
+          "files": [
+            "Blacklist_Launcher.exe",
+            "uplay_install.manifest",
+            "src\\SYSTEM\\Blacklist_DX11_game.exe"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Splitgate: Arena Warfare",
@@ -18876,29 +19171,6 @@
       ]
     },
     {
-      "displayName": "Subnautica VR",
-      "name": "subnautica_vr",
-      "versions": [
-        {
-          "name": "oculus",
-          "files": [
-            "Subnautica.exe",
-            "SubnauticaMonitor.exe",
-            "TP3GameGuard.dll",
-            "steam_api64.dll"
-          ]
-        },
-        {
-          "name": "steam",
-          "files": [
-            "Subnautica.exe",
-            "SubnauticaMonitor.exe",
-            "steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Subnautica: Below Zero",
       "name": "subnautica_below_zero",
       "versions": [
@@ -18916,6 +19188,29 @@
             "SubnauticaZero.exe",
             "Subnautica32.exe",
             "UnityPlayer.dll",
+            "steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "Subnautica VR",
+      "name": "subnautica_vr",
+      "versions": [
+        {
+          "name": "oculus",
+          "files": [
+            "Subnautica.exe",
+            "SubnauticaMonitor.exe",
+            "TP3GameGuard.dll",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "Subnautica.exe",
+            "SubnauticaMonitor.exe",
             "steam_api64.dll"
           ]
         }
@@ -18977,6 +19272,17 @@
       ]
     },
     {
+      "displayName": "SUPERHOT: MIND CONTROL DELETE",
+      "name": "superhot_mind_control_delete",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "SHMCD.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Superhot",
       "name": "superhot_vr",
       "versions": [
@@ -18992,17 +19298,6 @@
           "files": "superhot.exe"
         }
       ]
-    },
-    {
-      "displayName": "SUPERHOT: MIND CONTROL DELETE",
-      "name": "superhot_mind_control_delete",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "SHMCD.exe",
-          "steam_api64.dll"
-        ]
-      }
     },
     {
       "displayName": "Supraland",
@@ -19171,6 +19466,17 @@
       "versions": {
         "name": "generic",
         "files": "Arise\\Binaries\\Win64\\Tales of Arise.exe"
+      }
+    },
+    {
+      "displayName": "The Talos Principle VR",
+      "name": "talos_principle_vr",
+      "versions": {
+        "name": "steam-generic",
+        "files": [
+          "Bin\\x64\\openvr_api.dll",
+          "Bin\\x64\\Talos_VR.exe"
+        ]
       }
     },
     {
@@ -19382,17 +19688,6 @@
       ]
     },
     {
-      "displayName": "The Bard's Tale IV: Barrows Deep",
-      "name": "bards_tale_iv_barrows_deep",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "BardsTale4.exe",
-          "BardsTale4\\Content\\Movies\\Opening.mp4"
-        ]
-      }
-    },
-    {
       "displayName": "The Binding of Isaac: Rebirth",
       "name": "the_binding_of_isaac_rebirth",
       "versions": {
@@ -19415,26 +19710,6 @@
       }
     },
     {
-      "displayName": "The Callisto Protocol",
-      "name": "callisto_protocol",
-      "versions": [
-        {
-          "name": "egs",
-          "files": [
-            "TheCallistoProtocol\\Binaries\\Win64\\TheCallistoProtocol-Win64-Shipping.exe",
-            "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv155\\Win64\\steam_api64.dll"
-          ]
-        },
-        {
-          "name": "steam",
-          "files": [
-            "TheCallistoProtocol\\Binaries\\Win64\\TheCallistoProtocol-Win64-Shipping.exe",
-            "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv155\\Win64\\steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "The Chant",
       "name": "the_chant",
       "versions": {
@@ -19442,17 +19717,6 @@
         "files": [
           "Chant\\Binaries\\Win64\\Chant-Win64-Shipping.exe",
           "Chant.exe"
-        ]
-      }
-    },
-    {
-      "displayName": "The Climb VR",
-      "name": "climb",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "crytek_climb_wip\\bin\\win_x64\\Climb.exe",
-          "crytek_climb_wip\\system.cfg"
         ]
       }
     },
@@ -19544,6 +19808,17 @@
       }
     },
     {
+      "displayName": "The Elder Scrolls: Legends",
+      "name": "the_elder_scrolls_legends",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "The Elder Scrolls Legends.exe",
+          "The Elder Scrolls Legends_Data\\Plugins\\steam_api.dll"
+        ]
+      }
+    },
+    {
       "displayName": "The Elder Scrolls Online",
       "name": "the_elder_scrolls_online",
       "versions": [
@@ -19578,68 +19853,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "The Elder Scrolls V: Skyrim",
-      "name": "skyrim",
-      "versions": {
-        "name": "generic-steam",
-        "files": [
-          "TESV.exe",
-          "SkyrimLauncher.exe",
-          "Data\\Skyrim.esm"
-        ]
-      }
-    },
-    {
-      "displayName": "The Elder Scrolls V: Skyrim Special Edition",
-      "name": "skyrim_special_edition",
-      "versions": [
-        {
-          "name": "generic-steam",
-          "files": [
-            "SkyrimSE.exe",
-            "SkyrimSELauncher.exe"
-          ]
-        },
-        {
-          "name": "epic",
-          "files": [
-            "SkyrimSE.exe",
-            "SkyrimSELauncher.exe"
-          ]
-        },
-        {
-          "name": "GOG",
-          "files": [
-            "SkyrimSE.exe",
-            "SkyrimSELauncher.exe",
-            "gog.ico"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "The Elder Scrolls V: Skyrim VR",
-      "name": "skyrim_vr",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "SkyrimVR.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "The Elder Scrolls: Legends",
-      "name": "the_elder_scrolls_legends",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "The Elder Scrolls Legends.exe",
-          "The Elder Scrolls Legends_Data\\Plugins\\steam_api.dll"
-        ]
-      }
     },
     {
       "displayName": "The Evil Within",
@@ -19702,20 +19915,6 @@
       }
     },
     {
-      "displayName": "The Foundry Modo",
-      "name": "foundry_modo",
-      "versions": [
-        {
-          "name": "fv-13",
-          "files": "modo.exe"
-        },
-        {
-          "name": "fv-12",
-          "files": "modo.exe"
-        }
-      ]
-    },
-    {
       "displayName": "The Great Ace Attorney Chronicles",
       "name": "the_great_ace_attorney_chronicles",
       "versions": {
@@ -19767,17 +19966,6 @@
         "files": [
           "The Last Spell.exe",
           "The Last Spell_Data\\Plugins\\steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "The Legend of Bum-bo",
-      "name": "legend_of_bum_bo",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "the legend of bum-bo.exe",
-          "UnityPlayer.dll"
         ]
       }
     },
@@ -19861,26 +20049,6 @@
       ]
     },
     {
-      "displayName": "The Park",
-      "name": "park_the",
-      "versions": [
-        {
-          "name": "steam-generic",
-          "files": [
-            "AtlanticIslandPark\\Binaries\\Win64\\ThePark.exe",
-            "AtlanticIslandPark.exe"
-          ]
-        },
-        {
-          "name": "gog",
-          "files": [
-            "AtlanticIslandPark\\Binaries\\Win64\\ThePark.exe",
-            "goggame-1409316604.ico"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "The Persistence",
       "name": "the_persistence",
       "versions": {
@@ -19901,24 +20069,6 @@
           "Planet Crafter_Data\\Plugins\\x86_64\\steam_api64.dll"
         ]
       }
-    },
-    {
-      "displayName": "The Riftbreaker",
-      "name": "riftbreaker",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "bin\\riftbreaker_win_release.exe",
-            "bin\\steam_api64.dll",
-            "bin\\Launcher.exe"
-          ]
-        },
-        {
-          "name": "UWP",
-          "files": null
-        }
-      ]
     },
     {
       "displayName": "The Scroll Of Taiwu",
@@ -19964,26 +20114,6 @@
           "files": [
             "Game\\Bin\\Sims3LauncherW.exe",
             "__installer\\Cleanup.exe"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "The Sims 4",
-      "name": "sims_4",
-      "versions": [
-        {
-          "name": "Steam",
-          "files": [
-            "Game\\Bin\\TS4_x64.exe",
-            "__overlay\\steam_api.dll"
-          ]
-        },
-        {
-          "name": "Origin",
-          "files": [
-            "Game\\Bin\\TS4_x64.exe",
-            "__overlay\\steam_api.dll"
           ]
         }
       ]
@@ -20064,28 +20194,6 @@
           "WuXiaXClient.exe",
           "WuXiaX\\Binaries\\Win64\\steam_api64.dll",
           "WuXiaX\\Binaries\\Win64\\WuXiaXClient-Win64-Shipping.exe"
-        ]
-      }
-    },
-    {
-      "displayName": "The Talos Principle VR",
-      "name": "talos_principle_vr",
-      "versions": {
-        "name": "steam-generic",
-        "files": [
-          "Bin\\x64\\openvr_api.dll",
-          "Bin\\x64\\Talos_VR.exe"
-        ]
-      }
-    },
-    {
-      "displayName": "The Unspoken",
-      "name": "unspoken_the",
-      "versions": {
-        "name": "oculus",
-        "files": [
-          "Unspoken.exe",
-          "OculusTouch.dll"
         ]
       }
     },
@@ -20354,34 +20462,6 @@
       }
     },
     {
-      "displayName": "Tiger Knight",
-      "name": "hu_bao_qi",
-      "versions": [
-        {
-          "name": "generic",
-          "files": [
-            "Play.exe",
-            "frontend\\bin\\frontend.exe",
-            "Repair.exe"
-          ]
-        },
-        {
-          "name": "steam",
-          "files": [
-            "Binaries\\Win32\\Kingdom-Win32-Shipping.exe",
-            "frontend\\bin\\steam_api.dll"
-          ]
-        },
-        {
-          "name": "TGP",
-          "files": [
-            "Binaries\\Win32\\TGPKingdom-Win32-Shipping.exe",
-            "frontend\\bin\\TGP_frontend.exe"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Timberborn",
       "name": "timberborn",
       "versions": {
@@ -20476,14 +20556,6 @@
       ]
     },
     {
-      "displayName": "Tom Clancy's Ghost Recon Phantoms",
-      "name": "ghost_recon_phantoms",
-      "versions": {
-        "name": "generic",
-        "files": "Game\\PDC-Live\\GhostReconPhantoms.exe"
-      }
-    },
-    {
       "displayName": "Tom Clancy's Rainbow Six Extraction",
       "name": "tom_clancys_rainbow_six_extraction",
       "versions": [
@@ -20532,37 +20604,6 @@
             "RainbowSix.exe",
             "uplay_install.state",
             "359550_install.vdf"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "Tom Clancy's Splinter Cell Blacklist",
-      "name": "splinter_cell_blacklist",
-      "versions": [
-        {
-          "name": "steam-generic",
-          "files": [
-            "Blacklist_Launcher.exe",
-            "src\\SYSTEM\\Blacklist_game.exe",
-            "src\\SYSTEM\\Blacklist_DX11_game.exe",
-            "blacklistinstallscript.vdf"
-          ]
-        },
-        {
-          "name": "origin",
-          "files": [
-            "Blacklist_Launcher.exe",
-            "src\\SYSTEM\\Blacklist_game.exe",
-            "src\\SYSTEM\\Blacklist_DX11_game.exe"
-          ]
-        },
-        {
-          "name": "uplay",
-          "files": [
-            "Blacklist_Launcher.exe",
-            "uplay_install.manifest",
-            "src\\SYSTEM\\Blacklist_DX11_game.exe"
           ]
         }
       ]
@@ -20776,27 +20817,6 @@
       }
     },
     {
-      "displayName": "Total War Saga: TROY",
-      "name": "troy_a_total_war_saga",
-      "versions": [
-        {
-          "name": "Steam",
-          "files": [
-            "Troy.exe",
-            "steam_api64.dll"
-          ]
-        },
-        {
-          "name": "Epic",
-          "files": [
-            "Troy.exe",
-            "EOSSDK-Win64-Shipping.dll",
-            "steam_api64.dll"
-          ]
-        }
-      ]
-    },
-    {
       "displayName": "Total War: Attila",
       "name": "total_war_attila",
       "versions": {
@@ -20831,17 +20851,6 @@
       }
     },
     {
-      "displayName": "Total War: Rome II",
-      "name": "rome_2_total_war",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "Rome2.exe",
-          "Rome2.dll"
-        ]
-      }
-    },
-    {
       "displayName": "Total War: Rome Remastered",
       "name": "total_war_rome_remastered",
       "versions": {
@@ -20851,31 +20860,6 @@
           "FeralCefSubprocess.exe"
         ]
       }
-    },
-    {
-      "displayName": "Total War: Shogun 2",
-      "name": "shogun_2_total_war",
-      "versions": [
-        {
-          "name": "1.1.0.0",
-          "files": "Shogun2.exe"
-        },
-        {
-          "name": "steam 1.1.0.0 - 1",
-          "files": "Shogun2.exe"
-        },
-        {
-          "name": "steam 1.1.0.0 - 2",
-          "files": "Shogun2.exe"
-        },
-        {
-          "name": "generic",
-          "files": [
-            "Shogun2.exe",
-            "Shogun2.dll"
-          ]
-        }
-      ]
     },
     {
       "displayName": "Total War: THREE KINGDOMS",
@@ -20893,6 +20877,18 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Total War™: WARHAMMER®",
+      "name": "total_war_warhammer",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "steam_api64.dll",
+          "Warhammer.exe",
+          "data\\campaigns\\main_warhammer\\startpos.esf"
+        ]
+      }
     },
     {
       "displayName": "Total War: WARHAMMER II",
@@ -20937,18 +20933,6 @@
           "files": null
         }
       ]
-    },
-    {
-      "displayName": "Total War™: WARHAMMER®",
-      "name": "total_war_warhammer",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "steam_api64.dll",
-          "Warhammer.exe",
-          "data\\campaigns\\main_warhammer\\startpos.esf"
-        ]
-      }
     },
     {
       "displayName": "Totally Accurate Battle Simulator",
@@ -21208,6 +21192,27 @@
       }
     },
     {
+      "displayName": "Total War Saga: TROY",
+      "name": "troy_a_total_war_saga",
+      "versions": [
+        {
+          "name": "Steam",
+          "files": [
+            "Troy.exe",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "Epic",
+          "files": [
+            "Troy.exe",
+            "EOSSDK-Win64-Shipping.dll",
+            "steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
       "displayName": "Twelve Minutes",
       "name": "twelve_minutes",
       "versions": {
@@ -21313,6 +21318,17 @@
       "versions": {
         "name": "UE4-editor",
         "files": "UE4Editor.exe"
+      }
+    },
+    {
+      "displayName": "The Unspoken",
+      "name": "unspoken_the",
+      "versions": {
+        "name": "oculus",
+        "files": [
+          "Unspoken.exe",
+          "OculusTouch.dll"
+        ]
       }
     },
     {
@@ -21660,17 +21676,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Warhammer 40,000: Dawn of War III",
-      "name": "dawn_of_war_3",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "RelicDoW3.exe",
-          "steam_api64.dll"
-        ]
-      }
     },
     {
       "displayName": "Warhammer 40k: Darktide",
@@ -22068,6 +22073,17 @@
       ]
     },
     {
+      "displayName": "Wolfenstein: Cyberpilot",
+      "name": "wolfenstein_cyberpilot",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "Cyberpilot_x64vk.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Wolfenstein Youngblood",
       "name": "wolfenstein_youngblood",
       "versions": [
@@ -22086,17 +22102,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Wolfenstein: Cyberpilot",
-      "name": "wolfenstein_cyberpilot",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "Cyberpilot_x64vk.exe",
-          "steam_api64.dll"
-        ]
-      }
     },
     {
       "displayName": "World of Tanks",
@@ -22165,6 +22170,23 @@
       ]
     },
     {
+      "displayName": "World of Tanks: Blitz",
+      "name": "world_of_tanks_blitz",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "wotblitz.exe",
+            "steam_api.dll"
+          ]
+        },
+        {
+          "name": "uwp",
+          "files": null
+        }
+      ]
+    },
+    {
       "displayName": "World of Tanks Chinese",
       "name": "world_of_tanks_chinese",
       "versions": [
@@ -22183,23 +22205,6 @@
             "wotlauncher.exe",
             "license_cn.rtf"
           ]
-        }
-      ]
-    },
-    {
-      "displayName": "World of Tanks: Blitz",
-      "name": "world_of_tanks_blitz",
-      "versions": [
-        {
-          "name": "steam",
-          "files": [
-            "wotblitz.exe",
-            "steam_api.dll"
-          ]
-        },
-        {
-          "name": "uwp",
-          "files": null
         }
       ]
     },
@@ -22393,6 +22398,17 @@
       }
     },
     {
+      "displayName": "X-Heroes",
+      "name": "x_heroes",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "launch.exe",
+          "game\\Xheroes.exe"
+        ]
+      }
+    },
+    {
       "displayName": "X Rebirth",
       "name": "x_rebirth",
       "versions": [
@@ -22418,17 +22434,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "X-Heroes",
-      "name": "x_heroes",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "launch.exe",
-          "game\\Xheroes.exe"
-        ]
-      }
     },
     {
       "displayName": "X4: Foundations",
@@ -22541,19 +22546,6 @@
       }
     },
     {
-      "displayName": "XIYOU ONLINE 2",
-      "name": "new_xiyou_online_2",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "xy2_launch.exe",
-          "xy2.exe",
-          "xy2_tab.exe",
-          "xy2repair.exe"
-        ]
-      }
-    },
-    {
       "displayName": "XSplit Broadcaster",
       "name": "xsplit_broadcaster",
       "versions": [
@@ -22566,18 +22558,6 @@
           "files": "x64\\xsplit.core.exe"
         }
       ]
-    },
-    {
-      "displayName": "Xuan Yuan Jian Wai Zhuan: Qiong Zhi Fei",
-      "name": "qiong_zhi_fei",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "SWD6E\\Launcher\\Launcher.exe",
-          "SWD6E\\SWD6E.exe",
-          "SWD6E\\Revoke.exe"
-        ]
-      }
     },
     {
       "displayName": "Xuan-Yuan Sword VII",
@@ -22736,6 +22716,17 @@
       ]
     },
     {
+      "displayName": "Yu-Gi-Oh! Duel Links",
+      "name": "yu_gi_oh_duel_links",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "dlpc.exe",
+          "takeover\\DuelLinksTakeOver.exe"
+        ]
+      }
+    },
+    {
       "displayName": "Yu Long Zai Tian",
       "name": "yu_long_zai_tian",
       "versions": {
@@ -22749,15 +22740,24 @@
       }
     },
     {
-      "displayName": "Yu-Gi-Oh! Duel Links",
-      "name": "yu_gi_oh_duel_links",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "dlpc.exe",
-          "takeover\\DuelLinksTakeOver.exe"
-        ]
-      }
+      "displayName": "Conqueror's Blade",
+      "name": "zhan_yi",
+      "versions": [
+        {
+          "name": "steam",
+          "files": [
+            "steam_api.dll",
+            "ConquerorsBladeSteamLoader.exe"
+          ]
+        },
+        {
+          "name": "Chinese",
+          "files": [
+            "Starter.exe",
+            "game\\x64\\Ship\\client\\proven_ground_client.exe"
+          ]
+        }
+      ]
     },
     {
       "displayName": "ZhengTu 2",

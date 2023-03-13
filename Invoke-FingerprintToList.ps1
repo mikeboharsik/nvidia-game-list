@@ -18,7 +18,7 @@ $processedData = Select-Xml -Path $fingerprintPath -Xpath '//Fingerprint'
 			name = $node.name
 			versions = $versions
 		}
-	} | Sort-Object { $_.displayName }
+	} | Sort-Object { $_.name }
 
 $driverVersion = Get-WmiObject Win32_VideoController | Select-Object -ExpandProperty DriverVersion
 
