@@ -28,3 +28,5 @@ $driverVersion = Get-WmiObject Win32_VideoController | Select-Object -ExpandProp
 	games = $processedData
 }	| ConvertTo-Json -Depth 10
 	| Set-Content "games.json"
+
+Copy-Item -Path $fingerprintPath -Destination "fingerprint.db"
