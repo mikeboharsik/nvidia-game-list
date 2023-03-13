@@ -1,5 +1,5 @@
 {
-  "databaseLastWriteTimeUtc": "2023-03-11T09:15:34Z",
+  "databaseLastWriteTimeUtc": "2023-03-13T14:45:40Z",
   "driverVersion": "31.0.15.3118",
   "games": [
     {
@@ -6816,7 +6816,7 @@
           "name": "steam",
           "files": [
             "elsword.exe",
-            "steam_api.dll",
+            "steam_api64.dll",
             "ESSTEAM.exe"
           ]
         },
@@ -6991,18 +6991,6 @@
     },
     {
       "displayName": "EVE Online",
-      "name": "eve_online_chinese",
-      "versions": {
-        "name": "chinese",
-        "files": [
-          "SharedCache\\serenity\\eve.exe",
-          "SharedCache\\serenity\\bin64\\exefile.exe",
-          "Licenses\\license.txt"
-        ]
-      }
-    },
-    {
-      "displayName": "EVE Online",
       "name": "eve_online",
       "versions": [
         {
@@ -7025,6 +7013,18 @@
           "files": "eve.exe"
         }
       ]
+    },
+    {
+      "displayName": "EVE Online",
+      "name": "eve_online_chinese",
+      "versions": {
+        "name": "chinese",
+        "files": [
+          "SharedCache\\serenity\\eve.exe",
+          "SharedCache\\serenity\\bin64\\exefile.exe",
+          "Licenses\\license.txt"
+        ]
+      }
     },
     {
       "displayName": "EVE: Valkyrie - Warzone VR",
@@ -9016,28 +9016,6 @@
     },
     {
       "displayName": "Game Name",
-      "name": "aim_lab",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "AimLab_tb.exe",
-          "AimLab_tb_Data\\level0"
-        ]
-      }
-    },
-    {
-      "displayName": "Game Name",
-      "name": "expeditions_rome",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "ExpeditionsRome\\Binaries\\Win64\\ExpeditionsRome-Win64-Shipping.exe",
-          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv142\\Win64\\steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "Game Name",
       "name": "marvels_guardians_of_the_galaxy",
       "versions": [
         {
@@ -9057,6 +9035,28 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Game Name",
+      "name": "aim_lab",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "AimLab_tb.exe",
+          "AimLab_tb_Data\\level0"
+        ]
+      }
+    },
+    {
+      "displayName": "Game Name",
+      "name": "expeditions_rome",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "ExpeditionsRome\\Binaries\\Win64\\ExpeditionsRome-Win64-Shipping.exe",
+          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv142\\Win64\\steam_api64.dll"
+        ]
+      }
     },
     {
       "displayName": "Gang Beasts",
@@ -10707,6 +10707,17 @@
       }
     },
     {
+      "displayName": "Icarus",
+      "name": "icarus_2021",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "Icarus\\Binaries\\Win64\\Icarus-Win64-Shipping.exe",
+          "Icarus.exe"
+        ]
+      }
+    },
+    {
       "displayName": "ICARUS",
       "name": "icarus",
       "versions": {
@@ -10716,17 +10727,6 @@
           "Bin32\\fxc.exe",
           "Uninstall.exe",
           "Game\\animations.npk"
-        ]
-      }
-    },
-    {
-      "displayName": "Icarus",
-      "name": "icarus_2021",
-      "versions": {
-        "name": "steam",
-        "files": [
-          "Icarus\\Binaries\\Win64\\Icarus-Win64-Shipping.exe",
-          "Icarus.exe"
         ]
       }
     },
@@ -11228,23 +11228,23 @@
     },
     {
       "displayName": "Justice",
-      "name": "open_range",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "program\\bin\\Release64\\GacRunnerNG.exe",
-          "Launcher.exe"
-        ]
-      }
-    },
-    {
-      "displayName": "Justice",
       "name": "open_range_dlss",
       "versions": {
         "name": "generic",
         "files": [
           "Launcher.exe",
           "program\\bin\\Release64\\GacRunnerNG.exe"
+        ]
+      }
+    },
+    {
+      "displayName": "Justice",
+      "name": "open_range",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "program\\bin\\Release64\\GacRunnerNG.exe",
+          "Launcher.exe"
         ]
       }
     },
@@ -11857,12 +11857,14 @@
     },
     {
       "displayName": "Lineage II",
-      "name": "lineage_2.chinese.regular",
+      "name": "lineage_2.korean",
       "versions": {
-        "name": "chinese-regular",
+        "name": "korean",
         "files": [
-          "System\\L2.bin",
-          "TCLS\\Client.exe"
+          "FileInfoMap_L2_KOR.dat",
+          "system\\l2.bin",
+          "system\\L2.ini",
+          "LineageII.exe"
         ]
       }
     },
@@ -11887,19 +11889,6 @@
           ]
         }
       ]
-    },
-    {
-      "displayName": "Lineage II",
-      "name": "lineage_2.korean",
-      "versions": {
-        "name": "korean",
-        "files": [
-          "FileInfoMap_L2_KOR.dat",
-          "system\\l2.bin",
-          "system\\L2.ini",
-          "LineageII.exe"
-        ]
-      }
     },
     {
       "displayName": "Lineage II",
@@ -11928,6 +11917,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Lineage II",
+      "name": "lineage_2.chinese.regular",
+      "versions": {
+        "name": "chinese-regular",
+        "files": [
+          "System\\L2.bin",
+          "TCLS\\Client.exe"
+        ]
+      }
     },
     {
       "displayName": "Lineage II",
@@ -13342,7 +13342,7 @@
     },
     {
       "displayName": "Monster Hunter World",
-      "name": "monster_hunter_world",
+      "name": "monster_hunter_world_dlss",
       "versions": [
         {
           "name": "steam",
@@ -13362,7 +13362,7 @@
     },
     {
       "displayName": "Monster Hunter World",
-      "name": "monster_hunter_world_dlss",
+      "name": "monster_hunter_world",
       "versions": [
         {
           "name": "steam",
@@ -15571,26 +15571,6 @@
     },
     {
       "displayName": "PlanetSide 2",
-      "name": "planetside_2.chinese",
-      "versions": [
-        {
-          "name": "Locale is Tranditional Taiwan",
-          "files": [
-            "PlanetSide2.exe",
-            "行星邊際2.exe"
-          ]
-        },
-        {
-          "name": "generic",
-          "files": [
-            "PlanetSide2.exe",
-            "行星边际2.exe"
-          ]
-        }
-      ]
-    },
-    {
-      "displayName": "PlanetSide 2",
       "name": "planetside_2",
       "versions": [
         {
@@ -15612,6 +15592,26 @@
           "files": [
             "PlanetSide2_x64.exe",
             "steam_api64.dll"
+          ]
+        }
+      ]
+    },
+    {
+      "displayName": "PlanetSide 2",
+      "name": "planetside_2.chinese",
+      "versions": [
+        {
+          "name": "Locale is Tranditional Taiwan",
+          "files": [
+            "PlanetSide2.exe",
+            "行星邊際2.exe"
+          ]
+        },
+        {
+          "name": "generic",
+          "files": [
+            "PlanetSide2.exe",
+            "行星边际2.exe"
           ]
         }
       ]
@@ -18462,17 +18462,6 @@
     },
     {
       "displayName": "Star Wars: Squadrons",
-      "name": "star_wars_squadrons_vr",
-      "versions": {
-        "name": "Steam",
-        "files": [
-          "starwarssquadrons.exe",
-          "steam_api64.dll"
-        ]
-      }
-    },
-    {
-      "displayName": "Star Wars: Squadrons",
       "name": "star_wars_squadrons",
       "versions": [
         {
@@ -18504,6 +18493,17 @@
           ]
         }
       ]
+    },
+    {
+      "displayName": "Star Wars: Squadrons",
+      "name": "star_wars_squadrons_vr",
+      "versions": {
+        "name": "Steam",
+        "files": [
+          "starwarssquadrons.exe",
+          "steam_api64.dll"
+        ]
+      }
     },
     {
       "displayName": "Star Wars: The Old Republic",
