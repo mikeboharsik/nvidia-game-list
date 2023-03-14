@@ -1,5 +1,5 @@
 {
-  "databaseLastWriteTimeUtc": "2023-03-13T14:45:40Z",
+  "databaseLastWriteTimeUtc": "2023-03-14T07:15:26Z",
   "driverVersion": "31.0.15.3118",
   "games": [
     {
@@ -2694,7 +2694,6 @@
           "name": "generic",
           "files": [
             "BlackDesertLauncher.exe",
-            "bin\\BlackDesert32.exe",
             "bin64\\BlackDesert64.exe",
             "unins000.exe"
           ]
