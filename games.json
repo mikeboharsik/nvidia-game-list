@@ -1,5 +1,5 @@
 {
-  "databaseLastWriteTimeUtc": "2023-03-14T07:15:26Z",
+  "databaseLastWriteTimeUtc": "2023-03-18T08:45:30Z",
   "driverVersion": "31.0.15.3118",
   "games": [
     {
@@ -3381,11 +3381,11 @@
       "name": "call_of_duty_black_ops_cold_war",
       "versions": [
         {
-          "name": "pre-rel",
+          "name": "steam",
           "files": [
-            "cod_Release.exe",
             "BlackOpsColdWar.exe",
-            "Black Ops Cold War Launcher.exe"
+            "Black Ops Cold War Launcher.exe",
+            "steam_api64.dll"
           ]
         },
         {
@@ -3393,7 +3393,7 @@
           "files": [
             "BlackOpsColdWar.exe",
             "Black Ops Cold War Launcher.exe",
-            "cod_Release.exe"
+            "steam_api64.dll"
           ]
         }
       ]
@@ -3508,13 +3508,24 @@
     {
       "displayName": "Call of Duty: Modern Warfare 2019",
       "name": "call_of_duty_modern_warfare_2019",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "ModernWarfare.exe",
-          "Modern Warfare Launcher.exe"
-        ]
-      }
+      "versions": [
+        {
+          "name": "battlenet",
+          "files": [
+            "ModernWarfare.exe",
+            "Modern Warfare Launcher.exe",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "ModernWarfare.exe",
+            "Modern Warfare Launcher.exe",
+            "steam_api64.dll"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Call of Duty: Modern Warfare 3",
@@ -3572,13 +3583,24 @@
     {
       "displayName": "Call of Duty: Vanguard",
       "name": "call_of_duty_vanguard",
-      "versions": {
-        "name": "battlenet",
-        "files": [
-          "Vanguard.exe",
-          "Vanguard Launcher.exe"
-        ]
-      }
+      "versions": [
+        {
+          "name": "battlenet",
+          "files": [
+            "Vanguard.exe",
+            "Vanguard Launcher.exe",
+            "steam_api64.dll"
+          ]
+        },
+        {
+          "name": "steam",
+          "files": [
+            "Vanguard.exe",
+            "Vanguard Launcher.exe",
+            "steam_api64.dll"
+          ]
+        }
+      ]
     },
     {
       "displayName": "Call of Duty: WWII",
@@ -11628,6 +11650,17 @@
       }
     },
     {
+      "displayName": "Last Epoch",
+      "name": "last_epoch",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "Last Epoch.exe",
+          "Last Epoch_Data\\Plugins\\x86_64\\steam_api64.dll"
+        ]
+      }
+    },
+    {
       "displayName": "Last Oasis",
       "name": "last_oasis",
       "versions": {
@@ -12648,13 +12681,19 @@
     {
       "displayName": "Marvel's Spider-Man: Miles Morales",
       "name": "marvels_spiderman_miles_morales",
-      "versions": {
-        "name": "generic",
-        "files": [
-          "MilesMorales.exe",
-          "asset_archive\\g00s000"
-        ]
-      }
+      "versions": [
+        {
+          "name": "generic",
+          "files": [
+            "MilesMorales.exe",
+            "asset_archive\\g00s000"
+          ]
+        },
+        {
+          "name": "epic",
+          "files": "MilesMorales.exe"
+        }
+      ]
     },
     {
       "displayName": "Marvel's Spider-Man Remastered",
@@ -21160,11 +21199,7 @@
       "name": "tropico_6",
       "versions": {
         "name": "steam",
-        "files": [
-          "Tropico6.exe",
-          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv139\\Win64\\steam_api64.dll",
-          "Tropico6\\Binaries\\Win64\\Tropico6-Win64-Shipping.exe"
-        ]
+        "files": "Tropico6.exe"
       }
     },
     {
