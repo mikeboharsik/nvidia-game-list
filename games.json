@@ -1,5 +1,5 @@
 {
-  "databaseLastWriteTimeUtc": "2023-03-21T08:30:42Z",
+  "databaseLastWriteTimeUtc": "2023-03-22T08:30:42Z",
   "driverVersion": "31.0.15.3118",
   "games": [
     {
@@ -4312,6 +4312,17 @@
         "files": [
           "CW4.exe",
           "CW4_Data\\Plugins\\x86_64\\steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Crime Boss: Rockay City",
+      "name": "crime_boss_rockay_city",
+      "versions": {
+        "name": "generic",
+        "files": [
+          "CrimeBoss\\Binaries\\Win64\\CrimeBoss-Win64-Shipping.exe",
+          "Engine\\Binaries\\ThirdParty\\Steamworks\\Steamv151\\Win64\\steam_api64.dll"
         ]
       }
     },
@@ -16750,6 +16761,17 @@
         "name": "steam",
         "files": [
           "re3.exe",
+          "steam_api64.dll"
+        ]
+      }
+    },
+    {
+      "displayName": "Resident Evil 4",
+      "name": "resident_evil_4_remake",
+      "versions": {
+        "name": "steam",
+        "files": [
+          "re4.exe",
           "steam_api64.dll"
         ]
       }
